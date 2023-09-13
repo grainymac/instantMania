@@ -1,9 +1,8 @@
 import React from 'react'
 
-const InstantFilm = () => {
+export const InstantFilm = () => {
   return (
     <div>InstantFilm</div>
   )
 }
 
-export default InstantFilm

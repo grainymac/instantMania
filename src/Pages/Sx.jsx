@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Sx = () => {
+export const Sx = () => {
   return (
     <div>Sx</div>
   )
 }
-
-export default Sx

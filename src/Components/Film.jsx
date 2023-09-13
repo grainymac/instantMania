@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import './componentsStyles.css'
 
 export const Film = () => {
     return (

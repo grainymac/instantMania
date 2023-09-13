@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Polaroid = () => {
+export const Polaroid = () => {
   return (
     <div>Polaroid</div>
   )
 }
-
-export default Polaroid

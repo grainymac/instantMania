@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/index.css'
+import './componentsStyles.css'
 
 export const NavBar = () => {
     return (
