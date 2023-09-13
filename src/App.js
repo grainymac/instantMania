@@ -8,6 +8,7 @@ import { Spectra } from './Pages/Spectra'
 import { Polaroid } from './Pages/Polaroid'
 import { InstantFilm } from './Pages/InstantFilm'
 import { Sx } from './Pages/Sx'
+import { News } from './Pages/News'
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
       <Route path='/sx' element={<Sx />} />
       <Route path='/spectra' element={<Spectra />} />
       <Route path='/instant' element={<InstantFilm />} />
+      <Route path='/news' element={<News /> } />
       {/* <Route path='/*' element={<BadURL />} /> */}
     </Routes>
   );

@@ -39,6 +39,16 @@
     margin-right: 20px;
 }
 
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.nav-links:hover {
+    text-shadow: 2px 2px 4px rgba(72, 72, 72, 0.473);
+}
+
 /* ------------- Hero ------------- */
 .hero-container {
     display: flex;
