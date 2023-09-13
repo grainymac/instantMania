@@ -1,17 +1,25 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 
-import { JokeBar } from './Components/JokeBar'
-import { NavBar } from './Components/NavBar'
-import { Hero } from './Components/Hero'
 import { Home } from './Pages/Home'
+import { Go } from './Pages/Home'
+import { IType } from './Pages/Home'
+import { Spectra } from './Pages/Home'
+import { Polaroid } from './Pages/Home'
+import { InstantFilm } from './Pages/InstantFilm'
+import { Sx } from './Pages/Sx'
 
 export const App = () => {
   return (
-    <>
-    <JokeBar />
-    <NavBar />
-    <Hero />
-    <Home />
-    </>
+    <Routes>
+      <Route path='/' index element={<Home />} />
+      <Route path='/polaroid' element={<Polaroid />} />
+      <Route path='/itype' element={<IType />} />
+      <Route path='/go' element={<Go />} />
+      <Route path='/sx' element={<Sx />} />
+      <Route path='/spectra' element={<Spectra />} />
+      <Route path='/instant' element={<InstantFilm />} />
+      <Route path='/*' element={<BadURL />} />
+    </Routes>
   );
 }
