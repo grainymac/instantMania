@@ -8,7 +8,7 @@ export const NavBar = () => {
         <>
         <div className='navbar-container'>
             <div className='logo-container'>
-                <NavLink to='/'><img src='https://www.polaroid.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.17f08b4a.png&w=256&q=75' alt='logo' /></NavLink>
+                <NavLink to='/' className='nav-links'><h1>instantMania</h1></NavLink>
             </div>
             <div className='links-container'>
                 <ul className='links'>
