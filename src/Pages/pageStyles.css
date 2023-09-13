@@ -1,3 +1,5 @@
+@import url('https://db.onlinewebfonts.com/c/ee83134559a4f33cac174cf72426289c?family=Real+Head+Web+W04+Medium');
+
 /* -------------- FILM -------------- */
 .film-container {
     display: flex;
@@ -99,4 +101,47 @@
     height: 40vh;
     width: 300px;
     border-radius: 2rem;
+}
+
+/* -------------- NEWS -------------- */
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    font-family: "Real Head Web W04 Medium"
+}
+
+.news-article {
+    background-color: grey;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    height: auto;
+    width: 60vw
+}
+
+.article-title {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.article-date {
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+}
+
+.article-byline {
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+.article-abstract {
+    font-size: 1rem;
 }
