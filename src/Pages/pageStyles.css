@@ -145,3 +145,23 @@
 .article-abstract {
     font-size: 1rem;
 }
+
+/* -------------- INSTANT FILM -------------- */
+
+.instant-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instant-hero {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.instant-hero-image {
+    height: 40vh;
+    border-radius: 2rem;
+}
