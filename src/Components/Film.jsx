@@ -1,5 +1,6 @@
 import React from 'react'
 import './componentsStyles.css'
+import { Link } from 'react-router-dom'
 
 export const Film = () => {
     return (
@@ -7,10 +8,11 @@ export const Film = () => {
             <div className='film-container'>
                 <div className='content'>
                     <div className='content-overlay'></div>
-                    <img src='https://images.pexels.com/photos/3945344/pexels-photo-3945344.jpeg?auto=compress&cs=tinysrgb&w=400' className='polaroid-six polaroids' alt='polaroid 600' />
-                    <div className='content-details'>
-                        <h3>600 Film</h3>
-                    </div>
+                    <Link to='/itype' className='nav-links'><img src='https://images.pexels.com/photos/3945344/pexels-photo-3945344.jpeg?auto=compress&cs=tinysrgb&w=400' className='polaroid-six polaroids' alt='polaroid 600' />
+                        <div className='content-details'>
+                            <h3>600 Film</h3>
+                        </div>
+                    </Link>
                 </div>
 
                 <div className='content'>
