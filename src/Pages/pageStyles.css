@@ -151,8 +151,7 @@
 .instant-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
 }
 
 .instant-hero {
@@ -161,7 +160,14 @@
     display: flex;
     justify-content: center;
 }
+
 .instant-hero-image {
     height: 40vh;
     border-radius: 2rem;
+}
+
+.instantCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
