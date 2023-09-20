@@ -5,8 +5,8 @@ import bnw600 from '../polaroidFilm/bnwPolaroid/IMG_6096.jpg'
 import bnwItype from '../polaroidFilm/bnwPolaroid/IMG_6119.jpg'
 import bnwsx70 from '../polaroidFilm/bnwPolaroid/IMG_6125.jpg'
 
-// ------------ COLOR --------------
 
+// ------------ COLOR --------------
 import color600 from '../polaroidFilm/colorPolaroid/IMG_6103.jpg'
 import colorItype from '../polaroidFilm/colorPolaroid/IMG_6100.jpg'
 import colorBlackframeItype from '../polaroidFilm/colorPolaroid/IMG_6135.jpg'
@@ -14,28 +14,37 @@ import colorSpectra from '../polaroidFilm/colorPolaroid/IMG_6124.jpg'
 import colorBlackFrameGo from '../polaroidFilm/colorPolaroid/IMG_6129.jpg'
 import colorSx70 from '../polaroidFilm/colorPolaroid/IMG_6137.jpg'
 import colorFrames600 from '../polaroidFilm/colorPolaroid/IMG_6138.jpg'
-import timezeroSx70 from '../polaroidFilm/colorPolaroid/IMG_6132.jpg'
 import roundColor600 from '../polaroidFilm/colorPolaroid/IMG_6102.jpg'
-import summerItype from '../polaroidFilm/colorPolaroid/IMG_6136.jpg'
-import summerBluesItype from '../polaroidFilm/colorPolaroid/IMG_6127.jpg'
+import memphis600 from '../polaroidFilm/colorPolaroid/IMG_6133.jpg'
 import summerHaze600 from '../polaroidFilm/colorPolaroid/IMG_6128.jpg'
 import summerFruits600 from '../polaroidFilm/colorPolaroid/IMG_6131.jpg'
-import memphis600 from '../polaroidFilm/colorPolaroid/IMG_6133.jpg'
-import colorWaveItype from '../polaroidFilm/colorPolaroid/IMG_6134.jpg'
 import metalRed600 from '../polaroidFilm/colorPolaroid/IMG_6095.jpg'
 import gold600 from '../polaroidFilm/colorPolaroid/IMG_6098.jpg'
 import goldDust600 from '../polaroidFilm/colorPolaroid/IMG_6139.jpg'
+import festiveRed600 from '../polaroidFilm/colorPolaroid/IMG_6140.jpg'
+import skins600 from '../polaroidFilm/colorPolaroid/IMG_6178.jpg'
+import lucky8600 from '../polaroidFilm/colorPolaroid/IMG_6179.jpg'
+import poisonedParadise600 from '../polaroidFilm/colorPolaroid/IMG_6187.jpg'
+import mickey600 from '../polaroidFilm/colorPolaroid/IMG_6188.jpg'
+import rainbow600 from '../polaroidFilm/colorPolaroid/IMG_6189.jpg'
+import summerItype from '../polaroidFilm/colorPolaroid/IMG_6136.jpg'
+import summerBluesItype from '../polaroidFilm/colorPolaroid/IMG_6127.jpg'
+import colorWaveItype from '../polaroidFilm/colorPolaroid/IMG_6134.jpg'
 import roseGoldItype from '../polaroidFilm/colorPolaroid/IMG_6123.jpg'
 import goldenMomentsItype from '../polaroidFilm/colorPolaroid/IMG_6130.jpg'
-import festiveRed600 from '../polaroidFilm/colorPolaroid/IMG_6140.jpg'
-
-
+import davidBowieItype from '../polaroidFilm/colorPolaroid/IMG_6177.jpg'
+import camoItype from '../polaroidFilm/colorPolaroid/IMG_6183.jpg'
+import daydreamItype from '../polaroidFilm/colorPolaroid/IMG_6191.jpg'
+import noteItype from '../polaroidFilm/colorPolaroid/IMG_6192.WEBP'
+import timezeroSx70 from '../polaroidFilm/colorPolaroid/IMG_6132.jpg'
+import gridSpectra from '../polaroidFilm/colorPolaroid/IMG_6190.jpg'
 
 
 // ------------ DUOCHROME --------------
 import blackAndYellow from '../polaroidFilm/duoPolaroid/IMG_6092 2.jpg'
 import blackAndGreen from '../polaroidFilm/duoPolaroid/IMG_6094.jpg'
 import blackAndBlue from '../polaroidFilm/duoPolaroid/IMG_6122.jpg'
+import blackAndPink from '../polaroidFilm/duoPolaroid/IMG_6197.jpg'
 import reclaimedBlue from '../polaroidFilm/duoPolaroid/IMG_6126.jpg'
 
 export const InstantCard = () => { 
@@ -59,6 +68,11 @@ export const InstantCard = () => {
                 <img className='film' src={summerHaze600} alt='summer haze' />
                 <img className='film' src={summerFruits600} alt='summer fruits' />
                 <img className='film' src={memphis600} alt='memphis' />
+                <img className='film' src={rainbow600} alt='rainbow' />
+                <img className='film' src={mickey600} alt='mickey' />
+                <img className='film' src={skins600} alt='skins' />
+                <img className='film' src={poisonedParadise600} alt='poisoned paradise' />
+                <img className='film' src={lucky8600} alt='lucky 8' />
                 <img className='film' src={goldDust600} alt='gold dust' />
                 <img className='film' src={festiveRed600} alt='festive red' />
                 <img className='film' src={gold600} alt='gold frame' />
@@ -69,7 +83,12 @@ export const InstantCard = () => {
                 <img className='film' src={colorWaveItype} alt='color wave itype' />
                 <img className='film' src={roseGoldItype} alt='rose gold itype' />
                 <img className='film' src={goldenMomentsItype} alt='golden moments itype' />
+                <img className='film' src={davidBowieItype} alt='david bowie itype' />
+                <img className='film' src={camoItype} alt='camo itype' />
+                <img className='film' src={daydreamItype} alt='daydream itype' />
+                <img className='film' src={noteItype} alt='note itype' />
                 <img className='film' src={timezeroSx70} alt='time zero sx70' />
+                <img className='film' src={gridSpectra} alt='grid spectra' />
                 <img className='film' src={colorBlackFrameGo} alt='color black frame go' />
             </div>
 
@@ -78,6 +97,7 @@ export const InstantCard = () => {
                 <img className='film' src={blackAndYellow} alt='black and yellow duochrome' />
                 <img className='film' src={blackAndGreen} alt='black and green duochrome' />
                 <img className='film' src={blackAndBlue} alt='black and blue duochrome' />
+                <img className='film' src={blackAndPink} alt='black and pink duochrome' />
                 <img className='film' src={reclaimedBlue} alt='black and green duochrome' />
             </div>
         </div>

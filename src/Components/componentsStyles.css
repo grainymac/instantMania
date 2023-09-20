@@ -144,6 +144,6 @@
 }
 
 .film:hover {
-    box-shadow: 2px 2px 4px rgba(72, 72, 72, 0.473);
+    box-shadow: 2px 2px 20px rgba(72, 72, 72, 0.473);
     cursor: pointer;
 }

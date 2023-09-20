@@ -8,4 +8,13 @@ export const news = [
         link: "",
         article: "",
     },
+    {
+        id: 2,
+        title: "Polaroid Film Catalog",
+        datePublished: "20 September 2023",
+        author: "Ian McIntosh",
+        abstract: "Building a database of Polaroid's film frame catalog has been challenging!",
+        link: "",
+        article: "",
+    },
 ]
