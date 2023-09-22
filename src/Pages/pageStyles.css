@@ -176,3 +176,7 @@
 }
 
 /* -------------- Polaroid FILM -------------- */
+.polaroid-page-container {
+    display: flex;
+    flex-direction: column;
+}
