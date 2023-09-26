@@ -1,7 +1,22 @@
 import eleyKishimoto from '../polaroidFilm/bnwPolaroid/ely.jpg'
-import color600 from '../polaroidFilm/colorPolaroid/IMG_6093.jpg'
+import color600 from '../polaroidFilm/colorPolaroid/IMG_6103.jpg'
 import reclaimedBlue from '../polaroidFilm/duoPolaroid/IMG_6126.jpg'
-
+import metallicRedFrame from '../polaroidFilm/colorPolaroid/IMG_6095.jpg'
+import goldFrame from '../polaroidFilm/colorPolaroid/IMG_6098.jpg'
+import roundFrame from '../polaroidFilm/colorPolaroid/IMG_6102.jpg'
+import summerHaze from '../polaroidFilm/colorPolaroid/IMG_6128.jpg'
+import summerFruits from '../polaroidFilm/colorPolaroid/IMG_6131.jpg'
+import memphis from '../polaroidFilm/colorPolaroid/IMG_6133.jpg'
+import colorFrames from '../polaroidFilm/colorPolaroid/IMG_6138.jpg'
+import goldDust from '../polaroidFilm/colorPolaroid/IMG_6139.jpg'
+import festiveRed from '../polaroidFilm/colorPolaroid/IMG_6140.jpg'
+import skins from '../polaroidFilm/colorPolaroid/IMG_6178.jpg'
+import lucky8 from '../polaroidFilm/colorPolaroid/IMG_6179.jpg'
+import camo from '../polaroidFilm/colorPolaroid/IMG_6183.jpg'
+import poisonedParadise from '../polaroidFilm/colorPolaroid/IMG_6187.jpg'
+import mickey from '../polaroidFilm/colorPolaroid/IMG_6188.jpg'
+import rainbow from '../polaroidFilm/colorPolaroid/IMG_6189.jpg'
+import bnw600 from '../polaroidFilm/bnwPolaroid/IMG_6096.jpg'
 import blackAndPink from '../polaroidFilm/duoPolaroid/IMG_6197.jpg'
 import blackAndBlue from '../polaroidFilm/duoPolaroid/IMG_6122.jpg'
 import blackAndGreen from '../polaroidFilm/duoPolaroid/IMG_6094.jpg'
@@ -12,7 +27,7 @@ export const polaroid600Film = [
         id: 1,
         type: 'Black & White',
         title: '600 B&W Film',
-        image: '',
+        image: bnw600,
         link: '',
     },
     {
@@ -32,187 +47,215 @@ export const polaroid600Film = [
     {
         id: 4,
         type: 'Color',
-        title: 'Color Frames Edition',
-        image: '',
+        title: 'Camo Edition',
+        image: camo,
         link: '',
     },
     {
         id: 5,
+        type: 'Color',
+        title: 'Color Frames Edition',
+        image: colorFrames,
+        link: '',
+    },
+    {
+        id: 6,
         type: 'Color',
         title: 'Cyan Monochrome Edition',
         image: '',
         link: '',
     },
     {
-        id: 6,
+        id: 7,
         type: 'Color',
         title: 'Deep Sea Dive Edition',
         image: '',
         link: '',
     },
     {
-        id: 7,
-        type: 'Color',
-        title: 'Festive Red Edition',
-        image: '',
-        link: '',
-    },
-    {
         id: 8,
         type: 'Color',
-        title: 'Gold Frame Edition',
-        image: '',
+        title: 'Festive Red Edition',
+        image: festiveRed,
         link: '',
     },
     {
         id: 9,
+        type: 'Color',
+        title: 'Gold Dust Edition',
+        image: goldDust,
+        link: '',
+    },
+    {
+        id: 10,
+        type: 'Color',
+        title: 'Gold Frame Edition',
+        image: goldFrame,
+        link: '',
+    },
+    {
+        id: 11,
         type: 'Color',
         title: 'Hot Pink Edition',
         image: '',
         link: '',
     },
     {
-        id: 10,
+        id: 12,
         type: 'Color',
         title: 'Ice Cream Edition',
         image: '',
         link: '',
     },
     {
-        id: 11,
+        id: 13,
         type: 'Color',
         title: 'Keith Haring Edition',
         image: '',
         link: '',
     },
     {
-        id: 12,
+        id: 14,
         type: 'Color',
-        title: 'Memphis Edition',
-        image: '',
+        title: 'Lucky 8 Edition',
+        image: lucky8,
         link: '',
     },
     {
-        id: 13,
+        id: 15,
+        type: 'Color',
+        title: 'Memphis Edition',
+        image: memphis,
+        link: '',
+    },
+    {
+        id: 16,
         type: 'Color',
         title: 'Metallic Frame Edition',
         image: '',
         link: '',
     },
     {
-        id: 14,
+        id: 17,
         type: 'Color',
         title: 'Metallic Gold Frame Edition',
         image: '',
         link: '',
     },
     {
-        id: 15,
-        type: 'Color',
-        title: 'Metallic Red Frame Edition',
-        image: '',
-        link: '',
-    },
-    {
-        id: 16,
-        type: 'Color',
-        title: 'Mickeys 90th Anniversary Edition',
-        image: '',
-        link: '',
-    },
-    {
-        id: 17,
-        type: 'Color',
-        title: 'Poisoned Paradise Edition',
-        image: '',
-        link: '',
-    },
-    {
         id: 18,
         type: 'Color',
-        title: 'Rainbow Limited Edition',
-        image: '',
+        title: 'Metallic Red Frame Edition',
+        image: metallicRedFrame,
         link: '',
     },
     {
         id: 19,
+        type: 'Color',
+        title: 'Mickeys 90th Anniversary Edition',
+        image: mickey,
+        link: '',
+    },
+    {
+        id: 20,
+        type: 'Color',
+        title: 'Poisoned Paradise Edition',
+        image: poisonedParadise,
+        link: '',
+    },
+    {
+        id: 21,
+        type: 'Color',
+        title: 'Rainbow Limited Edition',
+        image: rainbow,
+        link: '',
+    },
+    {
+        id: 22,
         type: 'Color',
         title: 'Reclaimed Blue Edition',
         image: reclaimedBlue,
         link: '',
     },
     {
-        id: 20,
+        id: 23,
         type: 'Color',
         title: 'Round Frame Edition',
-        image: '',
+        image: roundFrame,
         link: '',
     },
     {
-        id: 21,
+        id: 24,
         type: 'Color',
         title: 'Silver Frame Edition',
         image: '',
         link: '',
     },
     {
-        id: 22,
+        id: 25,
+        type: 'Color',
+        title: 'Skins Edition',
+        image: skins,
+        link: '',
+    },
+    {
+        id: 26,
         type: 'Color',
         title: 'Summer Fruits Edition',
-        image: '',
+        image: summerFruits,
         link: '',
     },
     {
-        id: 23,
+        id: 27,
         type: 'Color',
         title: 'Summer Haze Edition',
-        image: '',
+        image: summerHaze,
         link: '',
     },
     {
-        id: 24,
+        id: 28,
         type: 'Color',
         title: 'Tropics Edition',
         image: '',
         link: '',
     },
     {
-        id: 25,
+        id: 29,
         type: 'Duochrome',
         title: 'Black & Blue Duochrome Edition',
         image: blackAndBlue,
         link: '',
     },
     {
-        id: 26,
+        id: 30,
         type: 'Duochrome',
         title: 'Black & Green Duochrome Edition',
         image: blackAndGreen,
         link: '',
     },
     {
-        id: 27,
+        id: 31,
         type: 'Duochrome',
         title: 'Black & Orange Duochrome Edition',
         image: '',
         link: '',
     },
     {
-        id: 28,
+        id: 32,
         type: 'Duochrome',
         title: 'Black & Pink Duochrome Edition',
         image: blackAndPink,
         link: '',
     },
     {
-        id: 29,
+        id: 33,
         type: 'Duochrome',
         title: 'Black & Red Duochrome Edition',
         image: '',
         link: '',
     },
     {
-        id: 30,
+        id: 34,
         type: 'Duochrome',
         title: 'Black & Yellow Duochrome Edition',
         image: blackAndYellow,
