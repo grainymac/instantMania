@@ -1,9 +1,10 @@
+import spectraHero from './assets/spectraHero.png'
 
 export const SpectraHero = () => {
     return (
         <>
             <div className="hero-container">
-                <img src={} className="hero-image" alt='hero' />
+                <img src={spectraHero} className="hero-image" alt='hero' />
             </div>
         </>
     )
