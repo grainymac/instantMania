@@ -12,7 +12,6 @@ import goldDust from '../polaroidFilm/colorPolaroid/IMG_6139.jpg'
 import festiveRed from '../polaroidFilm/colorPolaroid/IMG_6140.jpg'
 import skins from '../polaroidFilm/colorPolaroid/IMG_6178.jpg'
 import lucky8 from '../polaroidFilm/colorPolaroid/IMG_6179.jpg'
-import camo from '../polaroidFilm/colorPolaroid/IMG_6183.jpg'
 import poisonedParadise from '../polaroidFilm/colorPolaroid/IMG_6187.jpg'
 import mickey from '../polaroidFilm/colorPolaroid/IMG_6188.jpg'
 import rainbow from '../polaroidFilm/colorPolaroid/IMG_6189.jpg'
@@ -21,6 +20,17 @@ import blackAndPink from '../polaroidFilm/duoPolaroid/IMG_6197.jpg'
 import blackAndBlue from '../polaroidFilm/duoPolaroid/IMG_6122.jpg'
 import blackAndGreen from '../polaroidFilm/duoPolaroid/IMG_6094.jpg'
 import blackAndYellow from '../polaroidFilm/duoPolaroid/IMG_6092 2.jpg'
+import blackAndRed from '../polaroidFilm/colorPolaroid/IMG_6181.jpg'
+import bnwColorFrame from '../polaroidFilm/colorPolaroid/IMG_6184 2.jpg'
+import deepSeaDive from '../polaroidFilm/colorPolaroid/IMG_6185.jpg'
+import hotPink from '../polaroidFilm/colorPolaroid/IMG_6345.jpg'
+import silverFrame from '../polaroidFilm/colorPolaroid/IMG_6350.jpg'
+import cyanMono from '../polaroidFilm/colorPolaroid/IMG_6353.jpg'
+import bnwHardColor from '../polaroidFilm/bnwPolaroid/IMG_6352.jpg'
+import iceCream from '../polaroidFilm/colorPolaroid/IMG_6195.jpg'
+import skateistan from '../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
+import blackAndOrange from '../polaroidFilm/duoPolaroid/IMG_6180.jpg'
+import thirdManRecords from '../polaroidFilm/duoPolaroid/IMG_6357.jpg'
 
 export const polaroid600Film = [
     {
@@ -45,13 +55,6 @@ export const polaroid600Film = [
         link: '',
     },
     {
-        id: 4,
-        type: 'Color',
-        title: 'Camo Edition',
-        image: camo,
-        link: '',
-    },
-    {
         id: 5,
         type: 'Color',
         title: 'Color Frames Edition',
@@ -59,17 +62,24 @@ export const polaroid600Film = [
         link: '',
     },
     {
+        id: 5,
+        type: 'Black & White',
+        title: 'B&W Color Frames Edition',
+        image: bnwColorFrame,
+        link: '',
+    },
+    {
         id: 6,
         type: 'Color',
         title: 'Cyan Monochrome Edition',
-        image: '',
+        image: cyanMono,
         link: '',
     },
     {
         id: 7,
         type: 'Color',
         title: 'Deep Sea Dive Edition',
-        image: '',
+        image: deepSeaDive,
         link: '',
     },
     {
@@ -94,24 +104,24 @@ export const polaroid600Film = [
         link: '',
     },
     {
+        id: 10,
+        type: 'Black & White',
+        title: 'Hard Color Edition',
+        image: bnwHardColor,
+        link: '',
+    },
+    {
         id: 11,
         type: 'Color',
         title: 'Hot Pink Edition',
-        image: '',
+        image: hotPink,
         link: '',
     },
     {
         id: 12,
         type: 'Color',
         title: 'Ice Cream Edition',
-        image: '',
-        link: '',
-    },
-    {
-        id: 13,
-        type: 'Color',
-        title: 'Keith Haring Edition',
-        image: '',
+        image: iceCream,
         link: '',
     },
     {
@@ -188,7 +198,7 @@ export const polaroid600Film = [
         id: 24,
         type: 'Color',
         title: 'Silver Frame Edition',
-        image: '',
+        image: silverFrame,
         link: '',
     },
     {
@@ -251,7 +261,7 @@ export const polaroid600Film = [
         id: 33,
         type: 'Duochrome',
         title: 'Black & Red Duochrome Edition',
-        image: '',
+        image: blackAndRed,
         link: '',
     },
     {
