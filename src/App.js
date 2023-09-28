@@ -2,12 +2,12 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
 import { Home } from './Pages/Home'
-import { Go } from './Pages/Go'
-import { IType } from './Pages/IType'
-import { Spectra } from './Pages/Spectra'
+import { Go } from './Go/Go'
+import { IType } from './iType/IType'
+import { Spectra } from './Spectra/Spectra'
 import { Polaroid } from './Pages/Polaroid'
 import { InstantFilm } from './Pages/InstantFilm'
-import { Sx } from './Pages/Sx'
+import { Sx } from './Sx70/Sx'
 import { News } from './Pages/News'
 
 export const App = () => {

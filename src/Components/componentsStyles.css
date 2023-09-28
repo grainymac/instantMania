@@ -6,7 +6,6 @@
     background-color: #000;
     color: #fff;
     height: 5vh;
-    width: 100%;
     margin: 0;
     padding: 0 20px;
     display: flex;
@@ -14,17 +13,17 @@
     align-items: center;
     gap: 20px;
     font-family:'Courier New', Courier, monospace;
-    overflow: hidden; /* Hide the overflowing content */
+    overflow: hidden;
 }
 
 .joke-text-container {
     width: 40%;
     overflow: hidden;
-    position: relative; /* Position relative to enable animation */
+    position: relative;
 }
 
 .joke-text {
-    width: auto; /* Set a fixed width for the container */
+    width: auto;
     white-space: nowrap;
     animation: marquee 14s linear infinite;
     font-size: 20px;
@@ -33,12 +32,10 @@
 @keyframes marquee {
     0% {
         transform: translateX(100%);
-        /* Initial position: moved all the way to the right */
     }
 
     100% {
         transform: translateX(-100%);
-        /* Final position: moved all the way to the left */
     }
 }
 
@@ -64,11 +61,8 @@
 
 .newJoke-button:active {
     transform: translateY(2px);
-    /* Move the button down slightly when clicked */
     border: solid 3px rgb(206, 206, 0);
-    /* Adjust border color */
     background-color: #FFD700;
-    /* Adjust background color */
 }
 
 .flash-icon {
@@ -154,23 +148,18 @@
     .navbar-container {
         display: flex;
         flex-direction: column;
-        /* Stack items vertically */
         justify-content: center;
         align-items: center;
-        /* Adjust alignment for mobile */
         height: auto;
-        /* Let the height adjust to the content */
     }
 
     .logo-container {
         padding: 5px 0;
-        /* Remove horizontal padding */
         margin: 0;
     }
 
     .logo-container h1 {
         padding: 0;
-        /* Remove horizontal padding */
         margin: 0;
     }
 
@@ -181,14 +170,12 @@
 
     .links li {
         margin: 0;
-        /* Add spacing between list items */
         font-size: 13px;
         padding: 0 5px;
     }
 
     .nav-links {
         font-size: 20px;
-        /* Decrease font size for mobile */
     }
 }
 
@@ -216,14 +203,11 @@
 @media (max-width: 768px) {
     .hero-container {
         height: auto;
-        /* Let the height adjust to the content */
         padding: 0;
-        /* Add some spacing around the container */
     }
 
     .hero-image {
         border-radius: 0;
-        /* Remove border-radius for small screens */
         width: 500px;
     }
 }
@@ -299,7 +283,7 @@
 }
 
 .polaTitle {
-    margin: 3px 5px;
+    margin: 0;
     padding: 0;
     text-align: center;
     color: #000;
@@ -307,14 +291,14 @@
 }
 
 .polacard small {
-    margin: 10px 5px;
+    margin: 5px 5px;
     padding: 0;
     font-weight: bold;
 }
 
 .polaImage {
     height: auto;
-    width: 180px;
+    width: 160px;
     border-radius: .5rem;
     margin: 10px 10px;
     padding: 0;

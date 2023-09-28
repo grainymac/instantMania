@@ -1,6 +1,6 @@
 import React from 'react'
-import { ItypeHero } from '../iType/ItypeHero'
-import { ItypeCard } from '../iType/ItypeCard'
+import { ItypeHero } from './ItypeHero'
+import { ItypeCard } from './ItypeCard'
 
 export const IType = () => {
     return (

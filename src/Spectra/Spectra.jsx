@@ -1,6 +1,6 @@
 import React from 'react'
-import { SpectraHero } from '../Spectra/SpectraHero'
-import { SpectraCard } from '../Spectra/SpectraCard'
+import { SpectraHero } from './SpectraHero'
+import { SpectraCard } from './SpectraCard'
 
 export const Spectra = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import { GoHero } from '../Go/GoHero'
-import { GoCard } from '../Go/GoCard'
+import { GoHero } from './GoHero'
+import { GoCard } from './GoCard'
 
 export const Go = () => {
     return (
