@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { jokes } from '../jokeData'
+import pola from '../assets/polaroid.svg'
 
 export const JokeBar = () => {
     const [randomJoke, setRandomJoke] = useState('')
@@ -20,11 +21,11 @@ export const JokeBar = () => {
     return (
         <>
             <div className='joke-container'>
-                <div>
-                    {randomJoke}
+                <div className='joke-text-container'>
+                    <p className='joke-text'>{randomJoke}</p>
                 </div>
                 <button className='newJoke-button' onClick={handleNewJokeClick}>
-                    
+                    <img src={pola} alt='pola button' className='pola-button'/>
                 </button>
             </div>
         </>

@@ -6,13 +6,40 @@
     background-color: #000;
     color: #fff;
     height: 5vh;
+    width: 100%;
     margin: 0;
     padding: 0 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    font-family: 'Mandali', sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    overflow: hidden; /* Hide the overflowing content */
+}
+
+.joke-text-container {
+    width: 40%;
+    overflow: hidden;
+    position: relative; /* Position relative to enable animation */
+}
+
+.joke-text {
+    width: auto; /* Set a fixed width for the container */
+    white-space: nowrap;
+    animation: marquee 14s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+        /* Initial position: moved all the way to the right */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Final position: moved all the way to the left */
+    }
 }
 
 .newJoke-button {
@@ -20,8 +47,8 @@
     top: .5rem;
     right: 99px;
     border-radius: 100%;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -35,9 +62,45 @@
     border: solid 3px rgb(206, 206, 0);
 }
 
+.newJoke-button:active {
+    transform: translateY(2px);
+    /* Move the button down slightly when clicked */
+    border: solid 3px rgb(206, 206, 0);
+    /* Adjust border color */
+    background-color: #FFD700;
+    /* Adjust background color */
+}
+
 .flash-icon {
     height: .8rem;
     width: .8rem;
+}
+
+.pola-button {
+    padding: 2px 2px;
+}
+
+@media (max-width: 768px) {
+    .joke-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 6vh;
+    }
+
+    .joke-text-container {
+        width: 300px;
+    }
+
+    .joke-text {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .newJoke-button {
+        right: 20px;
+    }
 }
 
 /* ------------- NavBar ------------- */
@@ -63,7 +126,7 @@
 }
 
 .links-container {
-    margin:0;
+    margin: 0;
 }
 
 .links {
@@ -90,19 +153,24 @@
 @media (max-width: 768px) {
     .navbar-container {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
+        /* Stack items vertically */
         justify-content: center;
-        align-items: center; /* Adjust alignment for mobile */
-        height: auto; /* Let the height adjust to the content */
+        align-items: center;
+        /* Adjust alignment for mobile */
+        height: auto;
+        /* Let the height adjust to the content */
     }
 
     .logo-container {
-        padding: 5px 0; /* Remove horizontal padding */
+        padding: 5px 0;
+        /* Remove horizontal padding */
         margin: 0;
     }
 
     .logo-container h1 {
-        padding: 0; /* Remove horizontal padding */
+        padding: 0;
+        /* Remove horizontal padding */
         margin: 0;
     }
 
@@ -112,13 +180,15 @@
     }
 
     .links li {
-        margin: 0; /* Add spacing between list items */
+        margin: 0;
+        /* Add spacing between list items */
         font-size: 13px;
         padding: 0 5px;
     }
 
     .nav-links {
-        font-size: 20px; /* Decrease font size for mobile */
+        font-size: 20px;
+        /* Decrease font size for mobile */
     }
 }
 
@@ -145,12 +215,15 @@
 
 @media (max-width: 768px) {
     .hero-container {
-        height: auto; /* Let the height adjust to the content */
-        padding: 0; /* Add some spacing around the container */
+        height: auto;
+        /* Let the height adjust to the content */
+        padding: 0;
+        /* Add some spacing around the container */
     }
-    
+
     .hero-image {
-        border-radius: 0; /* Remove border-radius for small screens */
+        border-radius: 0;
+        /* Remove border-radius for small screens */
         width: 500px;
     }
 }
@@ -189,6 +262,7 @@
     gap: 3rem;
     margin: 10px 20px;
 }
+
 .film {
     height: 20vh;
     width: auto;
@@ -231,6 +305,7 @@
     color: #000;
     font-family: "Real Head Web W04 Medium"
 }
+
 .polacard small {
     margin: 10px 5px;
     padding: 0;
