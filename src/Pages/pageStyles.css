@@ -10,8 +10,7 @@
 
 .content {
     position: relative;
-    width: 90%;
-    max-width: 300px;
+    width: 15rem;
     margin: auto;
     overflow: hidden;
 }
@@ -21,7 +20,7 @@
     border-radius: 2rem;
     position: absolute;
     height: 99%;
-    width: 100%;
+    width: 15rem;
     left: 0;
     top: 0;
     bottom: 0;
@@ -42,7 +41,7 @@
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
-    width: 100%;
+    width: 15rem;
     top: 50%;
     left: 50%;
     opacity: 0;
@@ -73,37 +72,37 @@
     font-size: 0.8em;
 }
 
-.polaroid-six {
-    height: 40vh;
-    width: 300px;
-    border-radius: 2rem;
-}
-
-.polaroid-itype {
-    height: 40vh;
-    width: 300px;
-    border-radius: 2rem;
-}
-
-.polaroid-go {
-    height: 40vh;
-    width: 300px;
-    border-radius: 2rem;
-}
-
-.polaroid-sx {
-    height: 40vh;
-    width: 300px;
-    border-radius: 2rem;
-}
-
+.polaroid-six,
+.polaroid-itype,
+.polaroid-go,
+.polaroid-sx,
 .polaroid-spectra {
-    height: 40vh;
-    width: 300px;
+    height: 20rem;
+    width: 15rem;
     border-radius: 2rem;
 }
 
-/* -------------- NEWS -------------- */
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .film-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .content {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 15rem;
+    }
+
+    .polaroid-six,
+    .polaroid-itype,
+    .polaroid-go,
+    .polaroid-sx,
+    .polaroid-spectra {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Auto height to maintain aspect ratio */
+    }
+    
+}/* -------------- NEWS -------------- */
 .news-container {
     display: flex;
     flex-direction: column;
