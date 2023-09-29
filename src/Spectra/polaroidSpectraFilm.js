@@ -23,4 +23,11 @@ export const polaroidSpectraFilm = [
         image: grid,
         link: '',
     },
+    {
+        id: 4,
+        type: 'Color',
+        title: 'Paul Giambarda Edition',
+        image: '',
+        link: '',
+    },
 ]
