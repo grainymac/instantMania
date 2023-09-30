@@ -1,12 +1,13 @@
 import spectraColor from './film/IMG_6124.jpg'
 import grid from './film/IMG_6190.jpg'
+import spectraBnw from './film/IMG_6400.jpg'
 
 export const polaroidSpectraFilm = [
     {
         id: 1,
         type: 'Black & White',
         title: 'B&W Spectra Film',
-        image: '',
+        image: spectraBnw,
         link: '',
     },
     {

@@ -31,6 +31,7 @@ import iceCream from '../polaroidFilm/colorPolaroid/IMG_6195.jpg'
 import skateistan from '../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
 import blackAndOrange from '../polaroidFilm/duoPolaroid/IMG_6180.jpg'
 import thirdManRecords from '../polaroidFilm/duoPolaroid/IMG_6357.jpg'
+import barbie from '../Polaroid/film/IMG_6401.jpg'
 
 export const polaroid600Film = [
     {
@@ -290,6 +291,13 @@ export const polaroid600Film = [
         type: 'Duochrome',
         title: 'Black & Yellow Duochrome Edition',
         image: blackAndYellow,
+        link: '',
+    },
+    {
+        id: 38,
+        type: 'Color',
+        title: 'Barbie Edition',
+        image: barbie,
         link: '',
     },
 ]

@@ -11,6 +11,10 @@ import davidBowie from './film/IMG_6177.jpg'
 import camo from './film/IMG_6183.jpg'
 import daydream from './film/IMG_6191.jpg'
 import noteThis from './film/IMG_6192.WEBP'
+import mandalorian from './film/IMG_6394.jpg'
+import spectrum from './film/IMG_6395.jpg'
+import strangerThings from './film/IMG_6397.jpg'
+import metallicSpectrum from './film/IMG_6399.jpg'
 
 export const polaroidItypeFilm = [
     {
@@ -108,7 +112,7 @@ export const polaroidItypeFilm = [
         id: 14,
         type: 'Color',
         title: 'Metallic Spectrum Edition',
-        image: '',
+        image: metallicSpectrum,
         link: '',
     },
     {
@@ -136,14 +140,14 @@ export const polaroidItypeFilm = [
         id: 18,
         type: 'Color',
         title: 'Spectrum Edition',
-        image: '',
+        image: spectrum,
         link: '',
     },
     {
         id: 19,
         type: 'Color',
         title: 'Stranger Things Edition',
-        image: '',
+        image: strangerThings,
         link: '',
     },
     {
@@ -164,7 +168,7 @@ export const polaroidItypeFilm = [
         id: 22,
         type: 'Color',
         title: 'The Mandalorian Edition',
-        image: '',
+        image: mandalorian,
         link: '',
     },
 ]

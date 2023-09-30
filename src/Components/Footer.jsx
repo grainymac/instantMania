@@ -7,10 +7,10 @@ export const Footer = () => {
             <footer>
                 <div className='footer-links-container'>
                     <ul className='links'>
-                        <li><NavLink to='/' className='nav-links'>About</NavLink></li>
-                        <li><NavLink to='/news' className='nav-links'>Development</NavLink></li>
-                        <li><NavLink to='/instant' className='nav-links'>Support</NavLink></li>
-                        <li><NavLink to='/instant' className='nav-links'>Socials</NavLink></li>
+                        <li><NavLink to='/about' className='nav-links'>About</NavLink></li>
+                        <li><NavLink to='/development' className='nav-links'>Development</NavLink></li>
+                        <li><NavLink to='/support' className='nav-links'>Support</NavLink></li>
+                        <li><NavLink to='/socials' className='nav-links'>Socials</NavLink></li>
                     </ul>
                 </div>
                 <h4>
