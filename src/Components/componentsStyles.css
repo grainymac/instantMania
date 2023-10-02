@@ -224,8 +224,9 @@
 /* ------------- FILM ------------- */
 .card-container {
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .film-title {
@@ -235,10 +236,10 @@
     padding: 0;
     margin-top: 10px;
     margin-left: 20px;
-    font-family: "Real Head Web W04 Medium"
+    font-family: "Real Head Web W04 Medium";
 }
 
-.film-card-container {
+.polaroid-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -256,6 +257,35 @@
     box-shadow: 2px 2px 20px rgba(72, 72, 72, 0.473);
     cursor: pointer;
 }
+
+.goCard {
+    margin: 15px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 14rem;
+    height: 33vh;
+    border-radius: 2rem;
+}
+
+.film-Title {
+    margin: 3px 5px;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    font-family: "Real Head Web W04 Medium";
+}
+
+.film-Image {
+    height: auto;
+    width: 180px;
+    border-radius: .5rem;
+    margin: 10px 10px;
+    padding: 0;
+}
+
 
 
 /* ------------- PolaroidCard ------------- */
