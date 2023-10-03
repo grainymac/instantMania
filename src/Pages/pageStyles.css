@@ -148,10 +148,10 @@
 
 /* -------------- INSTANT FILM -------------- */
 
-.instant-container {
+.instant-film-container {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
 }
 
 .instant-hero {
@@ -168,23 +168,10 @@
     border-radius: 2rem;
 }
 
-.instantCard-container {
+.instant-card-film-container {
     display: flex;
     flex-direction: column;
     justify-content: left;
-}
-
-.card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.polaroid-card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* -------------- Polaroid FILM -------------- */

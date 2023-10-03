@@ -222,14 +222,13 @@
 }
 
 /* ------------- FILM ------------- */
-.card-container {
+.instant-card-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 
-.film-title {
+.instant-card-title {
     text-decoration: underline;
     text-align: left;
     margin: 0;
@@ -239,13 +238,12 @@
     font-family: "Real Head Web W04 Medium";
 }
 
-.polaroid-card-container {
+.polaroid-card-details {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: left;
-    gap: 3rem;
-    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .film {

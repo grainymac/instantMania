@@ -1,4 +1,4 @@
-import instantHero from '../assets/instantHero.png'
+import instantHero from '../../assets/instantHero.png'
 
 export const InstantHero = () => {
     return (
