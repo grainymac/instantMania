@@ -220,4 +220,154 @@ export const polaroidFilmData = [
         image: skateistan,
         link: '',
     },
+    {
+        title: 'Black & Orange Duochrome Edition',
+        image: blackAndOrange,
+        link: '',
+    },
+    {
+        title: 'Third Man Records Edition',
+        image: thirdManRecords,
+        link: '',
+    },
+    {
+        title: 'Barbie Instant Film',
+        image: barbie,
+        link: '',
+    },
+    {
+        title: 'Color Go Film',
+        image: colorGo,
+        link: '',
+    },
+    {
+        title: 'Black Frame Edition',
+        image: blackFrameGo,
+        link: '',
+    },
+    {
+        title: 'Color i-Type Film',
+        image: iTypeColor,
+        link: '',
+    },
+    {
+        title: 'B&W i-Type Film',
+        image: bnwIType,
+        link: '',
+    },
+    {
+        title: 'Palace Edition',
+        image: palace,
+        link: '',
+    },
+    {
+        title: 'Rose Gold Frame Edition',
+        image: roseGold,
+        link: '',
+    },
+    {
+        title: 'Summer Blues Edition',
+        image: summerBlues,
+        link: '',
+    },
+    {
+        title: 'Golden Moments Edition',
+        image: goldenMoments,
+        link: '',
+    },
+    {
+        title: 'Color Wave Edition',
+        image: colorWave,
+        link: '',
+    },
+    {
+        title: 'Black Frame Edition',
+        image: colorBlackFrame,
+        link: '',
+    },
+    {
+        title: 'Summer Edition',
+        image: summer,
+        link: '',
+    },
+    {
+        title: 'David Bowie Edition',
+        image: davidBowie,
+        link: '',
+    },
+    {
+        title: 'Camo Edition',
+        image: camo,
+        link: '',
+    },
+    {
+        title: 'Daydream Edition',
+        image: daydream,
+        link: '',
+    },
+    {
+        title: 'Note This Edition',
+        image: noteThis,
+        link: '',
+    },
+    {
+        title: 'The Mandalorian Edition',
+        image: mandalorian,
+        link: '',
+    },
+    {
+        title: 'Spectrum Edition',
+        image: spectrum,
+        link: '',
+    },
+    {
+        title: 'Stranger Things Edition',
+        image: strangerThings,
+        link: '',
+    },
+    {
+        title: 'Metallic Spectrum Edition',
+        image: metallicSpectrum,
+        link: '',
+    },
+    {
+        title: 'Color Spectra Film',
+        image: spectraColor,
+        link: '',
+    },
+    {
+        title: 'Grid Film',
+        image: grid,
+        link: '',
+    },
+    {
+        title: 'B&W Spectra Film',
+        image: spectraBnw,
+        link: '',
+    },
+    {
+        title: 'B&W SX-70 Film',
+        image: sx70bnw,
+        link: '',
+    },
+    {
+        title: 'Time-Zero Supercolor',
+        image: timeZero,
+        link: '',
+    },
+    {
+        title: 'Color SX-70 Film',
+        image: sx70color,
+        link: '',
+    },
+    {
+        title: 'Retinex Edition',
+        image: '',
+        link: '',
+    },
+    {
+        title: 'Peanuts Edition',
+        image: '',
+        link: '',
+    },
 ]
