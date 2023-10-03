@@ -26,6 +26,7 @@ import deepSeaDive from '../polaroidFilm/colorPolaroid/IMG_6185.jpg'
 import hotPink from '../polaroidFilm/colorPolaroid/IMG_6345.jpg'
 import silverFrame from '../polaroidFilm/colorPolaroid/IMG_6350.jpg'
 import cyanMono from '../polaroidFilm/colorPolaroid/IMG_6353.jpg'
+import magentaMono from '../Polaroid/film/IMG_6413.png'
 import bnwHardColor from '../polaroidFilm/bnwPolaroid/IMG_6352.jpg'
 import iceCream from '../polaroidFilm/colorPolaroid/IMG_6195.jpg'
 import skateistan from '../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
@@ -100,33 +101,123 @@ export const polaroidFilmData = [
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Summer Fruits Edition',
+        image: summerFruits,
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Memphis Edition',
+        image: memphis,
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Color Frames Edition',
+        image: colorFrames,
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Gold Dust Edition',
+        image: goldDust,
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Festive Red Edition',
+        image: festiveRed,
         link: '',
     },
     {
-        title: '600 B&W Film',
-        image: bnw600,
+        title: 'Skins Edition',
+        image: skins,
+        link: '',
+    },
+    {
+        title: 'Lucky 8 Edition',
+        image: lucky8,
+        link: '',
+    },
+    {
+        title: 'Poisoned Paradise Edition',
+        image: poisonedParadise,
+        link: '',
+    },
+    {
+        title: 'Mickey\'s 90th Anniversary Edition',
+        image: mickey,
+        link: '',
+    },
+    {
+        title: 'Rainbow Limited Edition',
+        image: rainbow,
+        link: '',
+    },
+    {
+        title: 'Black & Pink Duochrome Edition',
+        image: blackAndPink,
+        link: '',
+    },
+    {
+        title: 'Black & Blue Duochrome Edition',
+        image: blackAndBlue,
+        link: '',
+    },
+    {
+        title: 'Black & Green Duochrome Edition',
+        image: blackAndGreen,
+        link: '',
+    },
+    {
+        title: 'Black & Yellow Duochrome Edition',
+        image: blackAndYellow,
+        link: '',
+    },
+    {
+        title: 'Black & Red Duochrome Edition',
+        image: blackAndRed,
+        link: '',
+    },
+    {
+        title: 'Color Frames Edition',
+        image: bnwColorFrame,
+        link: '',
+    },
+    {
+        title: 'Deep Sea Dive Edition',
+        image: deepSeaDive,
+        link: '',
+    },
+    {
+        title: 'Hot Pink Edition',
+        image: hotPink,
+        link: '',
+    },
+    {
+        title: 'Silver Frame Edition',
+        image: silverFrame,
+        link: '',
+    },
+    {
+        title: 'Cyan Monochrome',
+        image: cyanMono,
+        link: '',
+    },
+    {
+        title: 'Magenta Monochrome',
+        image: magentaMono,
+        link: '',
+    },
+    {
+        title: 'Hard Color Edition',
+        image: bnwHardColor,
+        link: '',
+    },
+    {
+        title: 'Ice Cream Pastel Edition',
+        image: iceCream,
+        link: '',
+    },
+    {
+        title: 'Skateistan Edition',
+        image: skateistan,
         link: '',
     },
 ]
