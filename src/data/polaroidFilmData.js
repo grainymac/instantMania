@@ -140,6 +140,7 @@ export const polaroidFilmData = [
         title: 'Poisoned Paradise Edition',
         image: poisonedParadise,
         link: '',
+        details: 'Poisoned paradise edition was produced in 2014 by Impossible.  It features lushly, tropical floral frames with poisonous snakes entwined within them.  The floral patterns are Frangipani (blue), Hibiscus (red and black), and Fuchsia (orange).  It is currently discontinued.',
     },
     {
         title: 'Mickey\'s 90th Anniversary Edition',
@@ -150,6 +151,7 @@ export const polaroidFilmData = [
         title: 'Rainbow Limited Edition',
         image: rainbow,
         link: '',
+        details: 'Produced by Polaroid Originals exclusively only available at Urban Outfitters in limited quantities.',
     },
     {
         title: 'Black & Pink Duochrome Edition',
@@ -220,6 +222,7 @@ export const polaroidFilmData = [
         title: 'Skateistan Edition',
         image: skateistan,
         link: '',
+        details: 'Skateistan and The Impossible Project have collaborated to release a limited edition film for Polaroid 600-type cameras featuring a geometric, Afghan textile-inspired design at the bottom of each polaroid. A portion of the sales from these packs supports Skateistan\'s philanthropic initiatives in Afghanistan, Cambodia, and Johannesburg, South Africa, aimed at providing education and opportunities for vulnerable children through skateboarding. The CEO of The Impossible Project, Oskar Smolokowski, expressed enthusiasm for the positive impact of their collaboration with Skateistan and highlighted the importance of providing hope and opportunities to children in challenging environments. Skateistan\'s founder, Oliver Percovich, emphasized the project\'s potential to introduce their mission to a wider audience through Polaroid cameras\' global popularity.',
     },
     {
         title: 'Black & Orange Duochrome Edition',
