@@ -3,7 +3,20 @@ import './instantFilm.css'
 import { polaroidFilmData } from '../../data/polaroidFilmData'
 
 export const InstantCard = () => {
-    const film = polaroidFilmData
+    const film = polaroidFilmData.slice()
+
+    film.sort((a, b) => {
+        const titleA = a.title.toLowerCase()
+        const titleB = b.title.toLowerCase()
+
+        if (titleA < titleB) {
+            return -1
+        }
+        if (titleA > titleB) {
+            return 1
+        }
+        return 0
+    })
 
     return (
         <>
