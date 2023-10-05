@@ -12,6 +12,9 @@ import { News } from './Pages/News'
 import { BadURL } from './Error/BadURL.jsx'
 import { UnderConstruction } from './Error/UnderConstruction.jsx'
 import { Development } from './Pages/Development'
+import { DetailsPage } from './Pages/DetailsPage/DetailsPage'
+
+import { Bnw600 } from './Pages/Film/Bnw600'
 
 export const App = () => {
   return (
@@ -34,6 +37,8 @@ export const App = () => {
       <Route path='/development' element={<Development />} />
       <Route path='/support' element={<UnderConstruction />} />
       <Route path='/socials' element={<UnderConstruction />} />
+      <Route path='/bnw600' element={<Bnw600 />} />
+      {/* <Route path='/details/:id' element={<DetailsPage />} /> */}
     </Routes>
   );
 }
