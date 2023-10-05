@@ -70,6 +70,7 @@ export const polaroidFilmData = [
         title: 'Eley Kishimoto Edition',
         image: eleyKishimoto,
         link: '',
+        details: '',
     },
     {
         title: 'Color 600 Film',

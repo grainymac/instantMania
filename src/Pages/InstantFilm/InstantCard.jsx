@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './instantFilm.css'
 import { polaroidFilmData } from '../../data/polaroidFilmData'
+import { motion, AnimatePresence } from 'framer-motion'
+import Modal from '../../Components/Modal'
 
 export const InstantCard = () => {
     const film = polaroidFilmData.slice()
@@ -18,48 +20,34 @@ export const InstantCard = () => {
         return 0
     })
 
-    const [selectedCard, setSelectedCard] = useState(null)
+    const [modalOpen, setModalOpen] = useState(false)
 
-    const openModal = (id) => {
-        setSelectedCard(id)
-    }
-
-    const closeModal = () => {
-        setSelectedCard(null)
-    }
+    const close = () => setModalOpen(false)
+    const open = () => setModalOpen(true)
 
     return (
         <>
             <h2 className="instant-card-title">Polaroid Film & Frames</h2>
             <div className='polaroid-film-frame-container'>
                 {film.map(({ id, title, image, details }) => (
-                    <div key={id} className='polaroid-card-details' onClick={() => openModal(id)}>
+                    <div key={id} className='polaroid-card-details'>
                         <img className='polaroid-card-image' src={image} alt='polaroid' />
                         <h4 className='polaroid-card-title'>{title}</h4>
+                        <motion.button className='details-button' onClick={() => (modalOpen ? close() : open())} whileTap={{ scale: 0.9 }}>
+                            Details
+                        </motion.button>
+
+                        <AnimatePresence initial={false} mode='wait' onExitComplete={() => null}>
+                            {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
+                        </AnimatePresence>
                     </div>
                 ))}
             </div>
-
-            {selectedCard !== null && (
-                <div className="modal">
-                    <div className="modal-content">
-                        <span className="close" onClick={closeModal}>
-                            &times;
-                        </span>
-                        {/* Render details for the selected card */}
-                        <h2>{film[selectedCard].title}</h2>
-                        <p>{film[selectedCard].details}</p>
-                        {/* Add any other details you want to display */}
-                    </div>
-                </div>
-            )}
-
 
             <h2 className="title">Instax Film & Frames</h2>
             <div className="film-card-container">
                 <p>coming soon!</p>
             </div>
-
         </>
     )
 } 
