@@ -99,3 +99,14 @@
     font-family: "Real Head Web W04 Medium";
     text-wrap: wrap;
 }
+
+
+.details-button {
+    background-color: #000000e1;
+    border-radius: 2rem;
+    color: #ffffff;
+    height: 1.5rem;
+}
+.details-button:hover {
+    cursor: pointer;
+}

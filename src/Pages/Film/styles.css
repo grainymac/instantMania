@@ -1,0 +1,24 @@
+.film-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-page-container img {
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 1rem;
+}
+
+.detail-container {
+    display: flex;
+    width: 80%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.5rem;
+}

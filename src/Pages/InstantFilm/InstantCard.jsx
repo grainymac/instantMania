@@ -29,7 +29,7 @@ export const InstantCard = () => {
                         <img className='polaroid-card-image' src={image} alt='polaroid' />
                         <h4 className='polaroid-card-title'>{title}</h4>
                         <Link to={link}>
-                            <motion.button className='details-button'>
+                            <motion.button className='details-button' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                                 Details
                             </motion.button>
                         </Link>
