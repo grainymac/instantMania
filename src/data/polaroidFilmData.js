@@ -268,7 +268,7 @@ export const polaroidFilmData = [
     {
         title: 'Barbie Instant Film',
         image: barbie,
-        link: '',
+        link: '/barbie',
         details: '',
     },
     {
@@ -292,7 +292,7 @@ export const polaroidFilmData = [
     {
         title: 'B&W i-Type Film',
         image: bnwIType,
-        link: '',
+        link: '/bnwitype',
         details: 'Black and white i-Type Polaroid film is an instant film designed to be used with Polaroid i-Type cameras. It offers the timeless appeal of black and white photography, instant development, and a user-friendly format, making it accessible to a wide range of photographers. Additionally, it provides creative opportunities for those who want to explore artistic expression through instant monochromatic photography.',
     },
     {
@@ -400,19 +400,19 @@ export const polaroidFilmData = [
     {
         title: 'B&W Spectra Film',
         image: spectraBnw,
-        link: '',
+        link: '/bnwspectra',
         details: 'Black and white Spectra Polaroid film is a medium that caters to photographers who appreciate the beauty and versatility of black and white instant photography. It offers wide-format prints with classic monochromatic aesthetics, instant gratification, and the potential for artistic exploration when used with compatible Spectra cameras.',
     },
     {
         title: 'B&W SX-70 Film',
         image: sx70bnw,
-        link: '',
+        link: '/bnwsx70',
         details: 'Black and white SX-70 Polaroid film is a specialized film for SX-70 cameras, offering the opportunity to create artistic and timeless monochromatic instant photographs. It provides the enchantment of instant development and encourages creative exploration, making it a cherished choice among photographers and artists who appreciate the unique qualities of analog photography.',
     },
     {
         title: 'Time-Zero Supercolor',
         image: timeZero,
-        link: '',
+        link: '/timezero',
         details: '',
     },
     {

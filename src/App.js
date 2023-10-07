@@ -19,6 +19,10 @@ import { Peanuts } from './Pages/Film/Peanuts'
 import { Bnw600 } from './Pages/Film/Bnw600'
 import { Skateistan } from './Pages/Film/Skateistan'
 import { ReclaimedBlue } from './Pages/Film/ReclaimedBlue'
+import { BnwItype } from './Pages/Film/BnwItype'
+import { BnwSpectra } from './Pages/Film/BnwSpectra'
+import { BnwSx70 } from './Pages/Film/BnwSx70'
+import { Barbie } from './Pages/Film/Barbie'
 
 export const App = () => {
   return (
@@ -47,6 +51,10 @@ export const App = () => {
       <Route path='/peanuts' element={<Peanuts />} />
       <Route path='/skateistan' element={<Skateistan />} />
       <Route path='/reclaimedBlue' element={<ReclaimedBlue />} />
+      <Route path='/bnwitype' element={<BnwItype />} />
+      <Route path='/bnwspectra' element={<BnwSpectra />} />
+      <Route path='/bnwsx70' element={<BnwSx70 />} />
+      <Route path='/barbie' element={<Barbie />} />
       {/* <Route path='/details/:id' element={<DetailsPage />} /> */}
     </Routes>
   );
