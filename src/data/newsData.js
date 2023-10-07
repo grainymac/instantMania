@@ -35,4 +35,13 @@ export const news = [
         link: "",
         article: "I just want to document that I deployed my application today getting it ready for this weekend to show off to a bunch of people to hopefully get some great feedback.  There are still some responsive design code I need to iron out, but I am pretty positive people will dig it.",
     },
+    {
+        id: 5,
+        title: "Adding the Data",
+        datePublished: "6 October 2023",
+        author: "Ian McIntosh",
+        abstract: "Instant Film Page",
+        link: "",
+        article: "I have been going back and forth for a whole week how I want to add and display this data on this site.  I decided to just do it the long way and refactor in the end.  It isn't perfect, but it is working.  If you have the link to the site and have been messing around on the instant film page, you'll notice some of the film you can read more details about it.  This is still a work in progress section (along with all the other areas on the app) but I'm glad to finally get something up instead of pondering on how to do it.",
+    },
 ]
