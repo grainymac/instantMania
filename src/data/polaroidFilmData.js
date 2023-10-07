@@ -70,19 +70,19 @@ export const polaroidFilmData = [
     {
         title: 'Eley Kishimoto Edition',
         image: eleyKishimoto,
-        link: '',
+        link: '/eleyKishimoto',
         details: '',
     },
     {
         title: 'Color 600 Film',
         image: color600,
-        link: '',
+        link: '/color600',
         details: '',
     },
     {
         title: 'Reclaimed Blue',
         image: reclaimedBlue,
-        link: '',
+        link: '/reclaimedBlue',
         details: '',
     },
     {
@@ -250,7 +250,7 @@ export const polaroidFilmData = [
     {
         title: 'Skateistan Edition',
         image: skateistan,
-        link: '',
+        link: '/skateistan',
         details: 'Skateistan and The Impossible Project have collaborated to release a limited edition film for Polaroid 600-type cameras featuring a geometric, Afghan textile-inspired design at the bottom of each polaroid. A portion of the sales from these packs supports Skateistan\'s philanthropic initiatives in Afghanistan, Cambodia, and Johannesburg, South Africa, aimed at providing education and opportunities for vulnerable children through skateboarding. The CEO of The Impossible Project, Oskar Smolokowski, expressed enthusiasm for the positive impact of their collaboration with Skateistan and highlighted the importance of providing hope and opportunities to children in challenging environments. Skateistan\'s founder, Oliver Percovich, emphasized the project\'s potential to introduce their mission to a wider audience through Polaroid cameras\' global popularity.',
     },
     {
@@ -430,7 +430,7 @@ export const polaroidFilmData = [
     {
         title: 'Peanuts Edition',
         image: peanuts,
-        link: '',
+        link: '/peanuts',
         details: '',
     },
 ]

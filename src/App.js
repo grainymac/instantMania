@@ -13,8 +13,12 @@ import { BadURL } from './Error/BadURL.jsx'
 import { UnderConstruction } from './Error/UnderConstruction.jsx'
 import { Development } from './Pages/Development'
 import { DetailsPage } from './Pages/DetailsPage/DetailsPage'
-
+import { EleyKishimoto } from './Pages/Film/EleyKishimoto'
+import { Color600 } from './Pages/Film/Color600'
+import { Peanuts } from './Pages/Film/Peanuts'
 import { Bnw600 } from './Pages/Film/Bnw600'
+import { Skateistan } from './Pages/Film/Skateistan'
+import { ReclaimedBlue } from './Pages/Film/ReclaimedBlue'
 
 export const App = () => {
   return (
@@ -38,6 +42,11 @@ export const App = () => {
       <Route path='/support' element={<UnderConstruction />} />
       <Route path='/socials' element={<UnderConstruction />} />
       <Route path='/bnw600' element={<Bnw600 />} />
+      <Route path='/eleyKishimoto' element={<EleyKishimoto />} />
+      <Route path='/color600' element={<Color600 />} />
+      <Route path='/peanuts' element={<Peanuts />} />
+      <Route path='/skateistan' element={<Skateistan />} />
+      <Route path='/reclaimedBlue' element={<ReclaimedBlue />} />
       {/* <Route path='/details/:id' element={<DetailsPage />} /> */}
     </Routes>
   );
