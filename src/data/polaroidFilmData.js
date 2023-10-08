@@ -35,7 +35,7 @@ import thirdManRecords from '../polaroidFilm/duoPolaroid/IMG_6357.jpg'
 import barbie from '../Polaroid/film/IMG_6401.jpg'
 import colorGo from '../Go/film/IMG_6121.jpg'
 import blackFrameGo from '../Go/film/IMG_6129.jpg'
-import iTypeColor from '../iType/film/IMG_6100.jpg'
+import iTypeColor from '../iType/film/71UyBM4mH4L 2.jpg'
 import bnwIType from '../iType/film/IMG_6119.jpg'
 import palace from '../iType/film/IMG_6120.jpg'
 import roseGold from '../iType/film/IMG_6123.jpg'
@@ -59,6 +59,10 @@ import sx70bnw from '../Sx70/film/IMG_6125.jpg'
 import timeZero from '../Sx70/film/IMG_6132.jpg'
 import sx70color from '../Sx70/film/IMG_6137.jpg'
 import peanuts from '../iType/film/IMG_6484.jpeg'
+import keithHaring from '../iType/film/IMG_6535.jpg'
+import bnwBlackFrameItype from '../iType/film/pol1077_1 2.jpg'
+import colorFramesItype from '../iType/film/Polaroid_i-type_Color_Frames_1_1200x1200 (1).jpg'
+import gradientFrame from '../iType/film/S-058631x1500 2.jpg'
 
 export const polaroidFilmData = [
     {
@@ -432,5 +436,29 @@ export const polaroidFilmData = [
         image: peanuts,
         link: '/peanuts',
         details: '',
+    },
+    {
+        title: 'Keith Haring Edition',
+        image: keithHaring,
+        link: '/keithharing',
+        details: '',
+    },
+    {
+        title: 'Gradient Frame Edition',
+        image: gradientFrame,
+        link: '/gradientframe',
+        details: '',
+    },
+    {
+        title: 'Color Frames Edition',
+        image: colorFramesItype,
+        link: '/colorframesitype',
+        details: '',
+    },
+    {
+        title: 'Black Frame Edition',
+        image: bnwBlackFrameItype,
+        link: '/bnwblackframeitype',
+        details: 'The Black Frame Edition is designed to enhance your personal expression, whether for fashion or artistic form. Its matte black frame intensifies black colors and brightens whites, creating striking visual moments. This edition is exclusively available online and focuses on elevating aesthetics.',
     },
 ]

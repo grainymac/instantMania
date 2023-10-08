@@ -4,10 +4,13 @@ import { news } from '../data/newsData.js'
 import { NewsHero } from '../Components/NewsHero'
 
 export const News = () => {
+
+    const sortedNews = [...news].sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
+
     return (
         <div className='news-container'>
             <NewsHero />
-            {news.map(({ id, title, datePublished, author, abstract, link, article }) => (
+            {sortedNews.map(({ id, title, datePublished, author, abstract, link, article }) => (
             <div key={id} className='news-article'>
                 <h2 className='article-title'>{title}</h2>
                 <p className='article-date'>Published: {datePublished}</p>

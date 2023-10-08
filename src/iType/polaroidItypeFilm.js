@@ -1,4 +1,4 @@
-import iTypeColor from './film/IMG_6100.jpg'
+import iTypeColor from './film/71UyBM4mH4L 2.jpg'
 import bnwIType from './film/IMG_6119.jpg'
 import palace from './film/IMG_6120.jpg'
 import roseGold from './film/IMG_6123.jpg'
@@ -15,6 +15,11 @@ import mandalorian from './film/IMG_6394.jpg'
 import spectrum from './film/IMG_6395.jpg'
 import strangerThings from './film/IMG_6397.jpg'
 import metallicSpectrum from './film/IMG_6399.jpg'
+import keithHaring from './film/IMG_6535.jpg'
+import bnwBlackFrameItype from './film/pol1077_1 2.jpg'
+import colorFrames from './film/Polaroid_i-type_Color_Frames_1_1200x1200 (1).jpg'
+import gradientFrame from './film/S-058631x1500 2.jpg'
+import metallicNights from './film/61de519f86695573054256_w803h620.jpg'
 
 export const polaroidItypeFilm = [
     {
@@ -22,28 +27,28 @@ export const polaroidItypeFilm = [
         type: 'Black & White',
         title: 'B&W i-Type Film',
         image: bnwIType,
-        link: '',
+        link: '/bnwitype',
     },
     {
         id: 2,
         type: 'Color',
         title: 'Color i-Type Film',
         image: iTypeColor,
-        link: '',
+        link: '/coloritype',
     },
     {
         id: 3,
         type: 'Black & White',
         title: 'Black Frame Edition',
-        image: '',
-        link: '',
+        image: bnwBlackFrameItype,
+        link: '/bnwblackframeitype',
     },
     {
         id: 4,
         type: 'Color',
         title: 'Black Frame Edition',
         image: colorBlackFrame,
-        link: '',
+        link: '/colorblackframeitype',
     },
     {
         id: 5,
@@ -56,8 +61,8 @@ export const polaroidItypeFilm = [
         id: 6,
         type: 'Color',
         title: 'Color Frame Edition',
-        image: '',
-        link: '',
+        image: colorFrames,
+        link: '/colorframesitype',
     },
     {
         id: 7,
@@ -85,28 +90,28 @@ export const polaroidItypeFilm = [
         type: 'Color',
         title: 'Golden Moments Edition',
         image: goldenMoments,
-        link: '',
+        link: '/goldenmoments',
     },
     {
         id: 11,
         type: 'Color',
         title: 'Gradient Frame Edition',
-        image: '',
-        link: '',
+        image: gradientFrame,
+        link: '/gradientframe',
     },
     {
         id: 12,
         type: 'Color',
         title: 'Keith Haring Edition',
-        image: '',
-        link: '',
+        image: keithHaring,
+        link: '/keithharing',
     },
     {
         id: 13,
         type: 'Color',
         title: 'Metallic Nights Edition',
-        image: '',
-        link: '',
+        image: metallicNights,
+        link: '/metallicnights',
     },
     {
         id: 14,
