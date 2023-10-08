@@ -10,7 +10,7 @@ import summer from './film/IMG_6136.jpg'
 import davidBowie from './film/IMG_6177.jpg'
 import camo from './film/IMG_6183.jpg'
 import daydream from './film/IMG_6191.jpg'
-import noteThis from './film/IMG_6192.WEBP'
+import noteThis from './film/81DzIw8C04L 2.jpg'
 import mandalorian from './film/IMG_6394.jpg'
 import spectrum from './film/IMG_6395.jpg'
 import strangerThings from './film/IMG_6397.jpg'
@@ -20,6 +20,7 @@ import bnwBlackFrameItype from './film/pol1077_1 2.jpg'
 import colorFrames from './film/Polaroid_i-type_Color_Frames_1_1200x1200 (1).jpg'
 import gradientFrame from './film/S-058631x1500 2.jpg'
 import metallicNights from './film/61de519f86695573054256_w803h620.jpg'
+import retinex from './film/717oPHa7xjL._AC_SX466_ 2.jpg'
 
 export const polaroidItypeFilm = [
     {
@@ -175,5 +176,12 @@ export const polaroidItypeFilm = [
         title: 'The Mandalorian Edition',
         image: mandalorian,
         link: '',
+    },
+    {
+        id: 23,
+        type: 'Color',
+        title: 'Retinex Edition',
+        image: retinex,
+        link: '/retinex',
     },
 ]

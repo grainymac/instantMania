@@ -32,6 +32,7 @@ import skateistan from '../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
 import blackAndOrange from '../polaroidFilm/duoPolaroid/IMG_6180.jpg'
 import thirdManRecords from '../polaroidFilm/duoPolaroid/IMG_6357.jpg'
 import barbie from '../Polaroid/film/IMG_6401.jpg'
+import magentaMono from '../Polaroid/film/IMG_6413.png'
 
 export const polaroid600Film = [
     {
@@ -136,8 +137,8 @@ export const polaroid600Film = [
         id: 15,
         type: 'Monochrome',
         title: 'Magenta Monochrome Edition',
-        image: '',
-        link: '',
+        image: magentaMono,
+        link: '/magentamono',
     },
     {
         id: 16,
@@ -150,13 +151,6 @@ export const polaroid600Film = [
         id: 17,
         type: 'Color',
         title: 'Metallic Frame Edition',
-        image: '',
-        link: '',
-    },
-    {
-        id: 18,
-        type: 'Color',
-        title: 'Metallic Gold Frame Edition',
         image: '',
         link: '',
     },

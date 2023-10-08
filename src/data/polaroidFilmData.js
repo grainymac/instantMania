@@ -47,7 +47,7 @@ import summer from '../iType/film/IMG_6136.jpg'
 import davidBowie from '../iType/film/IMG_6177.jpg'
 import camo from '../iType/film/IMG_6183.jpg'
 import daydream from '../iType/film/IMG_6191.jpg'
-import noteThis from '../iType/film/IMG_6192.WEBP'
+import noteThis from '../iType/film/81DzIw8C04L 2.jpg'
 import mandalorian from '../iType/film/IMG_6394.jpg'
 import spectrum from '../iType/film/IMG_6395.jpg'
 import strangerThings from '../iType/film/IMG_6397.jpg'
@@ -63,6 +63,8 @@ import keithHaring from '../iType/film/IMG_6535.jpg'
 import bnwBlackFrameItype from '../iType/film/pol1077_1 2.jpg'
 import colorFramesItype from '../iType/film/Polaroid_i-type_Color_Frames_1_1200x1200 (1).jpg'
 import gradientFrame from '../iType/film/S-058631x1500 2.jpg'
+import metallicNights from '../iType/film/61de519f86695573054256_w803h620.jpg'
+import retinex from '../iType/film/717oPHa7xjL._AC_SX466_ 2.jpg'
 
 export const polaroidFilmData = [
     {
@@ -362,8 +364,8 @@ export const polaroidFilmData = [
     {
         title: 'Note This Edition',
         image: noteThis,
-        link: '',
-        details: '',
+        link: '/notethis',
+        details: 'The Note This Edition film is designed for photographers who want to document their activities effectively. It emphasizes the importance of recording key information such as who, what, where, and when while taking photos. This film serves as a tribute to a photographer\'s essential equipment, highlighting the significance of keeping detailed notes alongside their photography. It humorously advises against writing on the film itself, as it would likely lead to undesirable outcomes.',
     },
     {
         title: 'The Mandalorian Edition',
@@ -427,9 +429,9 @@ export const polaroidFilmData = [
     },
     {
         title: 'Retinex Edition',
-        image: '',
-        link: '',
-        details: '',
+        image: retinex,
+        link: '/retinex',
+        details: 'Retinex Theory, originally theorized by Polaroid founder Edwin Land in the 1970s, explores how colors can appear differently based on their surrounding colors. This theory forms the basis for Retinex Film, which offers 10 unique circular frame designs to capture the world in vibrant and unconventional ways. These special edition Retinex frames are a tribute to Polaroid\'s rich history, allowing collectors to own a piece of the brand\'s legacy. The Polaroid Round Frame Retinex Edition Instant Color Film is a double pack containing 16 photos, designed exclusively for I-Type cameras and printers. When using this film, initially, all photos will appear blank, but they develop within 15 minutes when shielded from light and placed face down.',
     },
     {
         title: 'Peanuts Edition',
@@ -447,6 +449,12 @@ export const polaroidFilmData = [
         title: 'Gradient Frame Edition',
         image: gradientFrame,
         link: '/gradientframe',
+        details: '',
+    },
+    {
+        title: 'Metallic Nights Edition',
+        image: metallicNights,
+        link: '/metallicnights',
         details: '',
     },
     {
