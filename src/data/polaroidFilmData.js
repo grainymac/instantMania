@@ -65,6 +65,11 @@ import colorFramesItype from '../iType/film/Polaroid_i-type_Color_Frames_1_1200x
 import gradientFrame from '../iType/film/S-058631x1500 2.jpg'
 import metallicNights from '../iType/film/61de519f86695573054256_w803h620.jpg'
 import retinex from '../iType/film/717oPHa7xjL._AC_SX466_ 2.jpg'
+import tropics from '../Polaroid/film/1528194628_IMG_1000274 2.jpg'
+import lego from '../Polaroid/film/i-img1200x830-16863181909145w1476480 2.jpg'
+import roundBlackFrame600 from '../Polaroid/film/impossible_4170_instant_color_film_for_1138057 2.jpg'
+import blackFrameSpectra from '../Spectra/film/impossible_3555_instant_color_film_for_1096476 2.jpg'
+import saintLaurent from '../Sx70/film/sx70-film-scaled.jpg'
 
 export const polaroidFilmData = [
     {
@@ -98,9 +103,9 @@ export const polaroidFilmData = [
         details: '',
     },
     {
-        title: 'Round Film',
+        title: 'Round Frame Edition',
         image: roundFrame,
-        link: '',
+        link: '/roundframe600',
         details: '',
     },
     {
@@ -398,6 +403,12 @@ export const polaroidFilmData = [
         details: '',
     },
     {
+        title: 'Black Frame Edition',
+        image: blackFrameSpectra,
+        link: '/blackframespectra',
+        details: '',
+    },
+    {
         title: 'Grid Film',
         image: grid,
         link: '',
@@ -425,6 +436,12 @@ export const polaroidFilmData = [
         title: 'Color SX-70 Film',
         image: sx70color,
         link: '',
+        details: '',
+    },
+    {
+        title: 'Saint Laurent Black Frame Edition',
+        image: saintLaurent,
+        link: '/saintLaurent',
         details: '',
     },
     {
@@ -462,6 +479,30 @@ export const polaroidFilmData = [
         image: colorFramesItype,
         link: '/colorframesitype',
         details: '',
+    },
+    {
+        title: 'Tropics Edition',
+        image: tropics,
+        link: '/tropics',
+        details: '',
+    },
+    {
+        title: 'Legoland Instant Film',
+        image: lego,
+        link: '/lego',
+        details: '',
+    },
+    {
+        title: 'Round Black Frame Edition',
+        image: roundBlackFrame600,
+        link: '/roundblackframe600',
+        details: '',
+    },
+    {
+        title: 'Color Frames Edition',
+        image: colorFramesItype,
+        link: '/colorframesitype',
+        details: 'promoting a limited edition Color 600 Film called the "Tropics Edition." This film is designed to evoke the feeling of a tropical paradise and features four different tropical-themed frames. It can be used with vintage 600 cameras and OneStep 2 cameras. It\'s ideal for capturing memories during activities like beach weekends, backyard pool parties, or any situation where you want to add a touch of bohemian charm to your photos.',
     },
     {
         title: 'Black Frame Edition',

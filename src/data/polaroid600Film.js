@@ -33,6 +33,8 @@ import blackAndOrange from '../polaroidFilm/duoPolaroid/IMG_6180.jpg'
 import thirdManRecords from '../polaroidFilm/duoPolaroid/IMG_6357.jpg'
 import barbie from '../Polaroid/film/IMG_6401.jpg'
 import magentaMono from '../Polaroid/film/IMG_6413.png'
+import tropics from '../Polaroid/film/1528194628_IMG_1000274 2.jpg'
+import blackRoundFrame600 from '../Polaroid/film/impossible_4170_instant_color_film_for_1138057 2.jpg'
 
 export const polaroid600Film = [
     {
@@ -148,13 +150,6 @@ export const polaroid600Film = [
         link: '',
     },
     {
-        id: 17,
-        type: 'Color',
-        title: 'Metallic Frame Edition',
-        image: '',
-        link: '',
-    },
-    {
         id: 19,
         type: 'Color',
         title: 'Metallic Red Frame Edition',
@@ -242,8 +237,8 @@ export const polaroid600Film = [
         id: 31,
         type: 'Color',
         title: 'Tropics Edition',
-        image: '',
-        link: '',
+        image: tropics,
+        link: '/tropics',
     },
     {
         id: 32,
@@ -293,5 +288,12 @@ export const polaroid600Film = [
         title: 'Barbie Edition',
         image: barbie,
         link: '',
+    },
+    {
+        id: 39,
+        type: 'Color',
+        title: 'Round Black Frame Edition',
+        image: blackRoundFrame600,
+        link: '/roundblackframe600',
     },
 ]

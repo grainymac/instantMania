@@ -1,6 +1,7 @@
 import spectraColor from './film/IMG_6124.jpg'
 import grid from './film/IMG_6190.jpg'
 import spectraBnw from './film/IMG_6400.jpg'
+import blackFrameSpectra from './film/impossible_3555_instant_color_film_for_1096476 2.jpg'
 
 export const polaroidSpectraFilm = [
     {
@@ -30,5 +31,12 @@ export const polaroidSpectraFilm = [
         title: 'Paul Giambarda Edition',
         image: '',
         link: '',
+    },
+    {
+        id: 5,
+        type: 'Color',
+        title: 'Black Frame Edition',
+        image: blackFrameSpectra,
+        link: '/blackframespectra',
     },
 ]

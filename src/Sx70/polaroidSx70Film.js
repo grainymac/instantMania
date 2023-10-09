@@ -1,6 +1,7 @@
 import sx70bnw from './film/IMG_6125.jpg'
 import timeZero from './film/IMG_6132.jpg'
 import sx70color from './film/IMG_6137.jpg'
+import saintLaurent from './film/sx70-film-scaled.jpg'
 
 export const polaroidSx70Film = [
     {
@@ -71,6 +72,13 @@ export const polaroidSx70Film = [
         type: 'Color',
         title: 'Time-Zero Supercolor',
         image: timeZero,
+        link: '',
+    },
+    {
+        id: 11,
+        type: 'Black & White',
+        title: 'Saint Laurent Black Frame Edition',
+        image: saintLaurent,
         link: '',
     },
 ]
