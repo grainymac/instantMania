@@ -70,6 +70,10 @@ import lego from '../Polaroid/film/i-img1200x830-16863181909145w1476480 2.jpg'
 import roundBlackFrame600 from '../Polaroid/film/impossible_4170_instant_color_film_for_1138057 2.jpg'
 import blackFrameSpectra from '../Spectra/film/impossible_3555_instant_color_film_for_1096476 2.jpg'
 import saintLaurent from '../Sx70/film/sx70-film-scaled.jpg'
+import bnwBlackFrameSx70 from '../Sx70/film/IMG_6312 2.JPG'
+import roundBlackFrameEditionSx70 from '../Sx70/film/impossible_4171_instant_color_film_for_1138059 (1) 2.jpg'
+import goldFrameSx70 from '../Sx70/film/impossible_prd3105_instant_color_film_for_1042372 2.jpg'
+import roundColorFramesSx70 from '../Sx70/film/impossible-color-instant-film-for-polaroid-sx-70-cameras-4152-348941 2.jpg'
 
 export const polaroidFilmData = [
     {
@@ -442,6 +446,30 @@ export const polaroidFilmData = [
         title: 'Saint Laurent Black Frame Edition',
         image: saintLaurent,
         link: '/saintLaurent',
+        details: '',
+    },
+    {
+        title: 'Black Frame Edition',
+        image: bnwBlackFrameSx70,
+        link: '/bnwblackframesx70',
+        details: '',
+    },
+    {
+        title: 'Round Black Frame Edition',
+        image: roundBlackFrameEditionSx70,
+        link: '/roundblackframeeditionsx70',
+        details: '',
+    },
+    {
+        title: 'Round Color Frames Edition',
+        image: roundColorFramesSx70,
+        link: '/roundcolorframessx70',
+        details: '',
+    },
+    {
+        title: 'Gold Frame Edition',
+        image: goldFrameSx70,
+        link: '/goldframesx70',
         details: '',
     },
     {
