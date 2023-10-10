@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './instantFilm.css'
 import { polaroidFilmData } from '../../data/polaroidFilmData'
 import { motion } from 'framer-motion'
