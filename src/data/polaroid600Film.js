@@ -35,6 +35,7 @@ import barbie from '../Polaroid/film/IMG_6401.jpg'
 import magentaMono from '../Polaroid/film/IMG_6413.png'
 import tropics from '../Polaroid/film/1528194628_IMG_1000274 2.jpg'
 import blackRoundFrame600 from '../Polaroid/film/impossible_4170_instant_color_film_for_1138057 2.jpg'
+import roundGoldFrame600 from '../Polaroid/film/impossible-color-film-for-600-gold-round-frame-edition-12269-asf 2.jpg'
 
 export const polaroid600Film = [
     {
@@ -295,5 +296,12 @@ export const polaroid600Film = [
         title: 'Round Black Frame Edition',
         image: blackRoundFrame600,
         link: '/roundblackframe600',
+    },
+    {
+        id: 40,
+        type: 'Color',
+        title: 'Round Gold Frame Edition',
+        image: roundGoldFrame600,
+        link: '/roundgoldframe600',
     },
 ]

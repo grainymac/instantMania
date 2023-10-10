@@ -11,6 +11,7 @@ import colorFrames from '../polaroidFilm/colorPolaroid/IMG_6138.jpg'
 import goldDust from '../polaroidFilm/colorPolaroid/IMG_6139.jpg'
 import festiveRed from '../polaroidFilm/colorPolaroid/IMG_6140.jpg'
 import skins from '../polaroidFilm/colorPolaroid/IMG_6178.jpg'
+import skinsSx70 from '../Sx70/film/impossible_3328_instant_color_film_for_1407761168_1069033 (1).jpg'
 import lucky8 from '../polaroidFilm/colorPolaroid/IMG_6179.jpg'
 import poisonedParadise from '../polaroidFilm/colorPolaroid/IMG_6187.jpg'
 import mickey from '../polaroidFilm/colorPolaroid/IMG_6188.jpg'
@@ -74,6 +75,10 @@ import bnwBlackFrameSx70 from '../Sx70/film/IMG_6312 2.JPG'
 import roundBlackFrameEditionSx70 from '../Sx70/film/impossible_4171_instant_color_film_for_1138059 (1) 2.jpg'
 import goldFrameSx70 from '../Sx70/film/impossible_prd3105_instant_color_film_for_1042372 2.jpg'
 import roundColorFramesSx70 from '../Sx70/film/impossible-color-instant-film-for-polaroid-sx-70-cameras-4152-348941 2.jpg'
+import roundGoldFrame600 from '../Polaroid/film/impossible-color-film-for-600-gold-round-frame-edition-12269-asf 2.jpg'
+import silverFrameSx70 from '../Sx70/film/impossible_prd3106_instant_color_film_for_1042373 (1) 2.jpg'
+import colorFramesSx70 from '../Sx70/film/m_62fc76942fbf1a1d33008d89 2.jpg'
+import luluGuinness from '../Sx70/film/1416496549_IMG_442276 2.jpg'
 
 export const polaroidFilmData = [
     {
@@ -125,9 +130,27 @@ export const polaroidFilmData = [
         details: '',
     },
     {
+        title: 'Skins Edition',
+        image: skinsSx70,
+        link: '/skinssx70',
+        details: '',
+    },
+    {
+        title: 'Silver Frame Edition',
+        image: silverFrameSx70,
+        link: '/silverframesx70',
+        details: '',
+    },
+    {
         title: 'Summer Fruits Edition',
         image: summerFruits,
         link: '',
+        details: '',
+    },
+    {
+        title: 'Lulu Guinness Edition',
+        image: luluGuinness,
+        link: '/luluguinness',
         details: '',
     },
     {
@@ -158,6 +181,12 @@ export const polaroidFilmData = [
         title: 'Skins Edition',
         image: skins,
         link: '',
+        details: '',
+    },
+    {
+        title: 'Round Gold Frame Edition',
+        image: roundGoldFrame600,
+        link: '/roundgoldframe600',
         details: '',
     },
     {
@@ -206,6 +235,12 @@ export const polaroidFilmData = [
         title: 'Black & Yellow Duochrome Edition',
         image: blackAndYellow,
         link: '',
+        details: '',
+    },
+    {
+        title: 'Color Frames Edition',
+        image: colorFramesSx70,
+        link: '/colorframessx70',
         details: '',
     },
     {
@@ -500,12 +535,6 @@ export const polaroidFilmData = [
         title: 'Metallic Nights Edition',
         image: metallicNights,
         link: '/metallicnights',
-        details: '',
-    },
-    {
-        title: 'Color Frames Edition',
-        image: colorFramesItype,
-        link: '/colorframesitype',
         details: '',
     },
     {

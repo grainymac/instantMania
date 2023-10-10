@@ -6,6 +6,10 @@ import bnwBlackFrame from './film/IMG_6312 2.JPG'
 import roundBlackFrameEdition from './film/impossible_4171_instant_color_film_for_1138059 (1) 2.jpg'
 import goldFrame from './film/impossible_prd3105_instant_color_film_for_1042372 2.jpg'
 import roundColorFrames from './film/impossible-color-instant-film-for-polaroid-sx-70-cameras-4152-348941 2.jpg'
+import skins from './film/impossible_3328_instant_color_film_for_1407761168_1069033 (1).jpg'
+import silverFrame from './film/impossible_prd3106_instant_color_film_for_1042373 (1) 2.jpg'
+import colorFrames from './film/m_62fc76942fbf1a1d33008d89 2.jpg'
+import luluGuiness from './film/1416496549_IMG_442276 2.jpg'
 
 export const polaroidSx70Film = [
     {
@@ -46,14 +50,7 @@ export const polaroidSx70Film = [
     {
         id: 6,
         type: 'Color',
-        title: 'Gold Frame Edition',
-        image: '',
-        link: '',
-    },
-    {
-        id: 7,
-        type: 'Color',
-        title: 'Lulu Guiness Edition',
+        title: 'Round Gold Frame Edition',
         image: '',
         link: '',
     },
@@ -68,8 +65,8 @@ export const polaroidSx70Film = [
         id: 9,
         type: 'Color',
         title: 'Silver Frame Edition',
-        image: '',
-        link: '',
+        image: silverFrame,
+        link: '/silverframesx70',
     },
     {
         id: 10,
@@ -88,22 +85,29 @@ export const polaroidSx70Film = [
     {
         id: 12,
         type: 'Color',
-        title: 'Color Frame Edition',
-        image: '',
-        link: '',
+        title: 'Color Frames Edition',
+        image: colorFrames,
+        link: '/colorframessx70',
     },
     {
         id: 13,
         type: 'Color',
         title: 'Skins Edition',
+        image: skins,
+        link: '/skinssx70',
+    },
+    {
+        id: 14,
+        type: 'Black & White',
+        title: 'Hard Color Edition',
         image: '',
         link: '',
     },
     {
         id: 14,
-        type: 'BLack & White',
-        title: 'Hard Color Edition',
-        image: '',
-        link: '',
+        type: 'Color',
+        title: 'Lulu Guinness Edition',
+        image: luluGuiness,
+        link: '/luluguinness',
     },
 ]
