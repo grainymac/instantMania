@@ -99,4 +99,11 @@ export const polaroidSx70Film = [
         image: '',
         link: '',
     },
+    {
+        id: 14,
+        type: 'BLack & White',
+        title: 'Hard Color Edition',
+        image: '',
+        link: '',
+    },
 ]
