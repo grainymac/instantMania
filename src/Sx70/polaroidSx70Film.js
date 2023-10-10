@@ -85,4 +85,18 @@ export const polaroidSx70Film = [
         image: saintLaurent,
         link: '',
     },
+    {
+        id: 12,
+        type: 'Color',
+        title: 'Color Frame Edition',
+        image: '',
+        link: '',
+    },
+    {
+        id: 13,
+        type: 'Color',
+        title: 'Skins Edition',
+        image: '',
+        link: '',
+    },
 ]
