@@ -90,7 +90,7 @@ export const polaroidFilmData = [
     {
         title: 'Eley Kishimoto Edition',
         image: eleyKishimoto,
-        link: '/eleyKishimoto',
+        link: '/eleykishimoto',
         details: '',
     },
     {
@@ -102,13 +102,13 @@ export const polaroidFilmData = [
     {
         title: 'Reclaimed Blue',
         image: reclaimedBlue,
-        link: '/reclaimedBlue',
+        link: '/reclaimedblue',
         details: '',
     },
     {
         title: 'Metallic Red Frame Edition',
         image: metallicRedFrame,
-        link: '',
+        link: '/metallicredframe',
         details: '',
     },
     {
@@ -120,13 +120,13 @@ export const polaroidFilmData = [
     {
         title: 'Gold Frame Edition',
         image: goldFrame,
-        link: '',
+        link: '/goldframe600',
         details: '',
     },
     {
         title: 'Summer Haze Edition',
         image: summerHaze,
-        link: '',
+        link: '/summerhaze',
         details: '',
     },
     {
@@ -144,7 +144,7 @@ export const polaroidFilmData = [
     {
         title: 'Summer Fruits Edition',
         image: summerFruits,
-        link: '',
+        link: '/summerfruits',
         details: '',
     },
     {
@@ -156,31 +156,31 @@ export const polaroidFilmData = [
     {
         title: 'Memphis Edition',
         image: memphis,
-        link: '',
+        link: '/memphis',
         details: '',
     },
     {
         title: 'Color Frames Edition',
         image: colorFrames,
-        link: '',
+        link: '/colorframes600',
         details: '',
     },
     {
         title: 'Gold Dust Edition',
         image: goldDust,
-        link: '',
+        link: '/golddust',
         details: '',
     },
     {
         title: 'Festive Red Edition',
         image: festiveRed,
-        link: '',
+        link: '/festivered',
         details: '',
     },
     {
         title: 'Skins Edition',
         image: skins,
-        link: '',
+        link: '/skins600',
         details: '',
     },
     {
@@ -192,49 +192,49 @@ export const polaroidFilmData = [
     {
         title: 'Lucky 8 Edition',
         image: lucky8,
-        link: '',
+        link: '/lucky8',
         details: '',
     },
     {
         title: 'Poisoned Paradise Edition',
         image: poisonedParadise,
-        link: '',
+        link: '/poisonedparadise',
         details: 'Poisoned paradise edition was produced in 2014 by Impossible.  It features lushly, tropical floral frames with poisonous snakes entwined within them.  The floral patterns are Frangipani (blue), Hibiscus (red and black), and Fuchsia (orange).  It is currently discontinued.',
     },
     {
         title: 'Mickey\'s 90th Anniversary Edition',
         image: mickey,
-        link: '',
+        link: '/mickey',
         details: '',
     },
     {
         title: 'Rainbow Limited Edition',
         image: rainbow,
-        link: '',
+        link: '/rainbow',
         details: 'Produced by Polaroid Originals exclusively only available at Urban Outfitters in limited quantities.',
     },
     {
         title: 'Black & Pink Duochrome Edition',
         image: blackAndPink,
-        link: '',
+        link: '/blackpink',
         details: '',
     },
     {
         title: 'Black & Blue Duochrome Edition',
         image: blackAndBlue,
-        link: '',
+        link: '/blackblue',
         details: '',
     },
     {
         title: 'Black & Green Duochrome Edition',
         image: blackAndGreen,
-        link: '',
+        link: '/blackgreen',
         details: '',
     },
     {
         title: 'Black & Yellow Duochrome Edition',
         image: blackAndYellow,
-        link: '',
+        link: '/blackyellow',
         details: '',
     },
     {
@@ -246,55 +246,55 @@ export const polaroidFilmData = [
     {
         title: 'Black & Red Duochrome Edition',
         image: blackAndRed,
-        link: '',
+        link: '/blackred',
         details: '',
     },
     {
         title: 'Color Frames Edition',
         image: bnwColorFrame,
-        link: '',
+        link: '/bnwcolorframes600',
         details: '',
     },
     {
         title: 'Deep Sea Dive Edition',
         image: deepSeaDive,
-        link: '',
+        link: '/deepseadive',
         details: '',
     },
     {
         title: 'Hot Pink Edition',
         image: hotPink,
-        link: '',
+        link: '/hotpink',
         details: '',
     },
     {
         title: 'Silver Frame Edition',
         image: silverFrame,
-        link: '',
+        link: '/silverframe600',
         details: '',
     },
     {
         title: 'Cyan Monochrome',
         image: cyanMono,
-        link: '',
+        link: '/cyanmono',
         details: '',
     },
     {
         title: 'Magenta Monochrome',
         image: magentaMono,
-        link: '',
+        link: '/magentamono',
         details: '',
     },
     {
         title: 'Hard Color Edition',
         image: bnwHardColor,
-        link: '',
+        link: '/hardcolor600',
         details: '',
     },
     {
         title: 'Ice Cream Pastel Edition',
         image: iceCream,
-        link: '',
+        link: '/icecream',
         details: '',
     },
     {
@@ -306,13 +306,13 @@ export const polaroidFilmData = [
     {
         title: 'Black & Orange Duochrome Edition',
         image: blackAndOrange,
-        link: '',
+        link: '/blackorange',
         details: '',
     },
     {
         title: 'Third Man Records Edition',
         image: thirdManRecords,
-        link: '',
+        link: '/thirdmanrecords',
         details: '',
     },
     {
