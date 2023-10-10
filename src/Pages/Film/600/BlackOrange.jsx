@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../polaroidFilm/duoPolaroid/IMG_6180.jpg'
 
-export const  = () => {
+export const BlackOrange = () => {
 
     return (
         <div className='film-page-container'>
