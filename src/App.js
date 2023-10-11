@@ -40,7 +40,6 @@ import { MagentaMono } from './Pages/Film/600/MagentaMono'
 import { Memphis } from './Pages/Film/600/Memphis'
 import { MetallicRedFrame } from './Pages/Film/600/MetallicRedFrame'
 import { Mickey } from './Pages/Film/600/Mickey'
-import { Peanuts } from './Pages/Film/600/Peanuts'
 import { PoisonedParadise } from './Pages/Film/600/PoisonedParadise'
 import { Rainbow } from './Pages/Film/600/Rainbow'
 import { ReclaimedBlue } from './Pages/Film/600/ReclaimedBlue'
@@ -55,6 +54,8 @@ import { SummerHaze } from './Pages/Film/600/SummerHaze'
 import { ThirdManRecords } from './Pages/Film/600/ThirdManRecords'
 import { Tropics } from './Pages/Film/600/Tropics'
 
+//i-Type Film
+import { Peanuts } from './Pages/Film/i-Type/Peanuts'
 
 export const App = () => {
   return (
@@ -105,7 +106,6 @@ export const App = () => {
       <Route path='/memphis' element={<Memphis />} />
       <Route path='/metallicredframe' element={<MetallicRedFrame />} />
       <Route path='/mickey' element={<Mickey />} />
-      <Route path='/peanuts' element={<Peanuts />} />
       <Route path='/poisonedparadise' element={<PoisonedParadise />} />
       <Route path='/rainbow' element={<Rainbow />} />
       <Route path='/reclaimedblue' element={<ReclaimedBlue />} />
@@ -121,6 +121,7 @@ export const App = () => {
       <Route path='/tropics' element={<Tropics />} />
       
       {/* i-Type Film Pages */}
+      <Route path='/peanuts' element={<Peanuts />} />
     </Routes>
   );
 }

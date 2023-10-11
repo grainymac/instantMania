@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
+import '../styles.css'
+import film from '../../../polaroidFilm/bnwPolaroid/IMG_6356.jpg'
 
 export const Skateistan = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../polaroidFilm/bnwPolaroid/ely.jpg'
+import '../styles.css'
+import film from '../../../polaroidFilm/bnwPolaroid/ely.jpg'
 
 export const EleyKishimoto = () => {
 

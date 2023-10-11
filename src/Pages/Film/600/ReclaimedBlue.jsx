@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../polaroidFilm/duoPolaroid/IMG_6126.jpg'
+import '../styles.css'
+import film from '../../../polaroidFilm/duoPolaroid/IMG_6126.jpg'
 
 export const ReclaimedBlue = () => {
 
