@@ -100,7 +100,7 @@ export const App = () => {
       <Route path='/hardcolor600' element={<HardColor600 />} />
       <Route path='/hotpink' element={<HotPink />} />
       <Route path='/icecream' element={<IceCream />} />
-      <Route path='/legoland' element={<LegoLand />} />
+      <Route path='/lego' element={<LegoLand />} />
       <Route path='/lucky8' element={<Lucky8 />} />
       <Route path='/magentamono' element={<MagentaMono />} />
       <Route path='/memphis' element={<Memphis />} />
