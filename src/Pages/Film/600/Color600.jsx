@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../polaroidFilm/colorPolaroid/IMG_6103.jpg'
+import '../styles.css'
+import film from '../../../polaroidFilm/colorPolaroid/IMG_6103.jpg'
 
 export const Color600 = () => {
 

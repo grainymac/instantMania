@@ -1,22 +1,22 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../polaroidFilm/colorPolaroid/IMG_6138.jpg'
 
-export const  = () => {
+export const ColorFrames600 = () => {
 
     return (
         <div className='film-page-container'>
-            <h1></h1>
+            <h1>Color Frames Edition</h1>
             <div className='detail-container'>
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
                     </p>
                     <small>
-                        <b>Film Type:</b> 
+                        <b>Film Type:</b> Color
                     </small>
                     <small>
-                        <b>Compatible Cameras:</b> 600 cameras
+                        <b>Compatible Cameras:</b> 600 and i-type cameras
                     </small>
                 </aside>
             </div>

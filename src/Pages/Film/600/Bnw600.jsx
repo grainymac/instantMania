@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../polaroidFilm/bnwPolaroid/IMG_6096.jpg'
+import '../styles.css'
+import film from '../../../polaroidFilm/bnwPolaroid/IMG_6096.jpg'
 
 export const Bnw600 = () => {
 
