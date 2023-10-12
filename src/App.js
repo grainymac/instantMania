@@ -56,6 +56,29 @@ import { Tropics } from './Pages/Film/600/Tropics'
 
 //i-Type Film
 import { Peanuts } from './Pages/Film/i-Type/Peanuts'
+import { BnwItype } from './Pages/Film/i-Type/BnwItype'
+import { BnwBlackFrameItype } from './Pages/Film/i-Type/BnwBlackFrameItype'
+import { Camo } from './Pages/Film/i-Type/Camo'
+import { ColorFrameItype } from './Pages/Film/i-Type/ColorFrameItype'
+import { ColorItype } from './Pages/Film/i-Type/ColorItype'
+import { ColorWave } from './Pages/Film/i-Type/ColorWave'
+import { DavidBowie } from './Pages/Film/i-Type/DavidBowie'
+import { Daydream } from './Pages/Film/i-Type/Daydream'
+import { GoldenMoments } from './Pages/Film/i-Type/GoldenMoments'
+import { GradientFrame } from './Pages/Film/i-Type/GradientFrame'
+import { KeithHaring } from './Pages/Film/i-Type/KeithHaring'
+import { MetallicNights } from './Pages/Film/i-Type/MetallicNights'
+import { MetallicSpectrum } from './Pages/Film/i-Type/MetallicSpectrum'
+import { NoteThis } from './Pages/Film/i-Type/NoteThis'
+import { Palace } from './Pages/Film/i-Type/Palace'
+import { Retinex } from './Pages/Film/i-Type/Retinex'
+import { RoseGold } from './Pages/Film/i-Type/RoseGold'
+import { Spectrum } from './Pages/Film/i-Type/Spectrum'
+import { StrangerThings } from './Pages/Film/i-Type/StrangerThings'
+import { SummerBlues } from './Pages/Film/i-Type/SummerBlues'
+import { Summer } from './Pages/Film/i-Type/Summer'
+import { TheMandalorian } from './Pages/Film/i-Type/TheMandalorian'
+import { BlackFrameItype } from './Pages/Film/i-Type/BlackFrameItype'
 
 //Go Film
 import { ColorGo } from './Pages/Film/Go/ColorGo'
@@ -126,6 +149,29 @@ export const App = () => {
       
       {/* i-Type Film Pages */}
       <Route path='/peanuts' element={<Peanuts />} />
+      <Route path='/bnwitype' element={<BnwItype />} />
+      <Route path='/bnwblackframeitype' element={<BnwBlackFrameItype />} />
+      <Route path='/blackframeitype' element={<BlackFrameItype />} />
+      <Route path='/camo' element={<Camo />} />
+      <Route path='/colorframesitype' element={<ColorFrameItype />} />
+      <Route path='/coloritype' element={<ColorItype />} />
+      <Route path='/colorwave' element={<ColorWave />} />
+      <Route path='/davidbowie' element={<DavidBowie />} />
+      <Route path='/daydream' element={<Daydream />} />
+      <Route path='/goldenmoments' element={<GoldenMoments />} />
+      <Route path='/gradientframe' element={<GradientFrame />} />
+      <Route path='/keithharing' element={<KeithHaring />} />
+      <Route path='/metallicnights' element={<MetallicNights />} />
+      <Route path='/metallicspectrum' element={<MetallicSpectrum />} />
+      <Route path='/notethis' element={<NoteThis />} />
+      <Route path='/palace' element={<Palace />} />
+      <Route path='/retinex' element={<Retinex />} />
+      <Route path='/rosegold' element={<RoseGold />} />
+      <Route path='/spectrum' element={<Spectrum />} />
+      <Route path='/strangerthings' element={<StrangerThings />} />
+      <Route path='/summerblues' element={<SummerBlues />} />
+      <Route path='/summer' element={<Summer />} />
+      <Route path='/themandalorian' element={<TheMandalorian />} />
 
       {/* Go Film Pages */}
       <Route path='/colorgo' element={<ColorGo />} />
