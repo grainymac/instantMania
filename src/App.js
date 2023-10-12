@@ -57,6 +57,10 @@ import { Tropics } from './Pages/Film/600/Tropics'
 //i-Type Film
 import { Peanuts } from './Pages/Film/i-Type/Peanuts'
 
+//Go Film
+import { ColorGo } from './Pages/Film/Go/ColorGo'
+import { BlackFrameGo } from './Pages/Film/Go/BlackFrameGo'
+
 export const App = () => {
   return (
     <Routes>
@@ -122,6 +126,10 @@ export const App = () => {
       
       {/* i-Type Film Pages */}
       <Route path='/peanuts' element={<Peanuts />} />
+
+      {/* Go Film Pages */}
+      <Route path='/colorgo' element={<ColorGo />} />
+      <Route path='/blackframego' element={<BlackFrameGo />} />
     </Routes>
   );
 }

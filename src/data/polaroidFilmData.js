@@ -324,13 +324,13 @@ export const polaroidFilmData = [
     {
         title: 'Color Go Film',
         image: colorGo,
-        link: '',
+        link: '/colorgo',
         details: '',
     },
     {
         title: 'Black Frame Edition',
         image: blackFrameGo,
-        link: '',
+        link: '/blackframego',
         details: '',
     },
     {
