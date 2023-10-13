@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../iType/film/IMG_6134.jpg'
 
 export const ColorWave = () => {
 

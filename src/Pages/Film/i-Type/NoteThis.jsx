@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../iType/film/81DzIw8C04L 2.jpg'
 
 export const NoteThis = () => {
 

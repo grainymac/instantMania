@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../iType/film/717oPHa7xjL._AC_SX466_ 2.jpg'
 
 export const ColorItype = () => {
 

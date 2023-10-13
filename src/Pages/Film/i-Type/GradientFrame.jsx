@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../iType/film/S-058631x1500 2.jpg'
 
 export const GradientFrame = () => {
 

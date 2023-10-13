@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles.css'
-import film from ''
+import film from '../../../iType/film/IMG_6130.jpg'
 
 export const GoldenMoments = () => {
 

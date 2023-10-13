@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css'
-import film from '../../iType/film/IMG_6119.jpg'
+import '../styles.css'
+import film from '../../../iType/film/IMG_6119.jpg'
 
 export const BnwItype = () => {
 
