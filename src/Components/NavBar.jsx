@@ -3,25 +3,15 @@ import { NavLink } from 'react-router-dom'
 import { polaroidFilmData } from '../data/polaroidFilmData'
 import './componentsStyles.css'
 
-const getFilteredItems = (query, items) => {
-    if (!query) {
-        return items
-    }
-
-    return items.filter(film => {
-        film.title.includes(query)
-    })
-}
-
-
 
 export const NavBar = () => {
-
     const [query, setQuery] = useState('')
 
-    const items = polaroidFilmData
+    const filteredResults = polaroidFilmData.filter((item) =>
+    item.title.toLowerCase().includes(query.toLowerCase())
+  );
 
-    const filteredItems = getFilteredItems(query, items)
+  const limitedResults = filteredResults.slice(0, 5)
 
     return (
         <>
@@ -30,11 +20,17 @@ export const NavBar = () => {
                 <NavLink to='/' className='nav-links'><h1>instantMania</h1></NavLink>
             </div>
 
-            <div>
-                <label>Search</label>
-                <input type='text' onChange={e => setQuery(e.target.value)} />
-                <ul>
-                </ul>
+            <div className='search-container'>
+                <input className='searchbar' placeholder='Search for Film' type='text' onChange={e => setQuery(e.target.value)} value={query}/>
+                {query && (
+                    <div className='result-container'>
+                        <ul className='result-list'>
+                        {limitedResults.map((result, index) => (
+                            <li className='result' key={index}>{result.title}</li>
+                        ))}
+                        </ul>
+                    </div>
+                )}
             </div>
 
             <div className='links-container'>
