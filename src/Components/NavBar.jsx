@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import { polaroidFilmData } from '../data/polaroidFilmData'
 import './componentsStyles.css'
@@ -13,6 +14,10 @@ export const NavBar = () => {
 
   const limitedResults = filteredResults.slice(0, 5)
 
+  const resetSearchBar = () => {
+    setQuery('')
+  }
+
     return (
         <>
         <div className='navbar-container'>
@@ -21,12 +26,14 @@ export const NavBar = () => {
             </div>
 
             <div className='search-container'>
-                <input className='searchbar' placeholder='Search for Film' type='text' onChange={e => setQuery(e.target.value)} value={query}/>
+                <input className='searchbar' placeholder='Search for Polaroid Film & Frames' type='text' onChange={e => setQuery(e.target.value)} value={query}/>
                 {query && (
                     <div className='result-container'>
                         <ul className='result-list'>
                         {limitedResults.map((result, index) => (
-                            <li className='result' key={index}>{result.title}</li>
+                            <li className='result' key={index}>
+                                <Link onClick={resetSearchBar} className='result-link' to={result.link}>{result.title}</Link>
+                            </li>
                         ))}
                         </ul>
                     </div>
