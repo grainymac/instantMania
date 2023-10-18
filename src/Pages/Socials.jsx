@@ -1,8 +1,5 @@
 import React from 'react'
 import './pageStyles.css'
-import instagram from '../assets/instagram.png'
-import threads from '../assets/threads.png'
-import x from '../assets/x.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 

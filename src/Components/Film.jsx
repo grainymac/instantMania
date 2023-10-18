@@ -1,5 +1,5 @@
 import React from 'react'
-import './componentsStyles.css'
+import '../Pages/pageStyles.css'
 import { Link } from 'react-router-dom'
 
 export const Film = () => {
