@@ -44,4 +44,13 @@ export const news = [
         link: "",
         article: "I have been going back and forth for a whole week how I want to add and display this data on this site.  I decided to just do it the long way and refactor in the end.  It isn't perfect, but it is working.  If you have the link to the site and have been messing around on the instant film page, you'll notice some of the film you can read more details about it.  This is still a work in progress section (along with all the other areas on the app) but I'm glad to finally get something up instead of pondering on how to do it.",
     },
+    {
+        id: 6,
+        title: "Exciting New Feature Added",
+        datePublished: "18 October 2023",
+        author: "Ian McIntosh",
+        abstract: " Introducing Search Bar Functionality",
+        link: "",
+        article: "I have just rolled out a game-changing update that promises to revolutionize the way you use the app. With the new search bar functionality, finding your desired Polaroid film frames and text types has never been easier or more convenient. This innovative feature is set to enhance the user experience, making navigation through the app faster and more intuitive. Some key highlights of the new search bar functionality are: 1. Effortless Search: The search bar makes it effortless to find specific Polaroid film frames and types. Just type in your keywords, and the app will instantly present you with a curated selection. 2. Time-Saving: No more endless scrolling or browsing through numerous options. The search bar function is designed to save your valuable time.  Implementing this new feature was a challenge to implement but later, I plan to make it more robust and responsive adding in more additional features.",
+    },
 ]
