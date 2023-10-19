@@ -249,32 +249,36 @@
 }
 
 .card0 {
-    background: url('') center center no-repeat;
-  background-size: 300px;
+    background: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/380803059_10160372666112702_5895321273844832290_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VF2NYabxO3MAX8fqXgf&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDj-ob1tz4vB1a5UsAfXjA-aYfGns-psPbPmpqpan1c0Q&oe=6535B282') center center no-repeat;
+    background-size: 400px;
 }
 
 .card0:hover {
-    background: url('') left center no-repeat;
+    background: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/380803059_10160372666112702_5895321273844832290_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VF2NYabxO3MAX8fqXgf&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDj-ob1tz4vB1a5UsAfXjA-aYfGns-psPbPmpqpan1c0Q&oe=6535B282') left center no-repeat;
     background-size: 600px;
 }
 
 .social-title {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #ffffff;
     opacity: 1;
+    margin: 5px 5px;
 }
 
 .social-link {
-    font-size: .8rem;
+    font-size: 1.5rem;
     color: #ffffff;
-    font-style: italic;
+    text-decoration: none;
 }
 
-.social-link a {
-    text-decoration: none;
-    color:#ffffff
+.social-link:hover {
+    cursor: pointer;
+    color: #fcbcbc;
 }
 
 .social-icons {
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
+    margin: 5px 5px;
 }

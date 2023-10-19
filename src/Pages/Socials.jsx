@@ -1,7 +1,7 @@
 import React from 'react'
 import './pageStyles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faXTwitter, faSquareThreads, faSquareInstagram, faReddit } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -13,7 +13,21 @@ export const Socials = () => {
                 <div className='social-border'>
                     <h1 className='social-title'>Ian Mac</h1>
                     <div className='social-icons'>
-                        <FontAwesomeIcon icon={faXTwitter} />
+                        <a className='social-link' target='_blank' href='https://x.com/ianmac__'>
+                            <FontAwesomeIcon icon={faXTwitter} />
+                        </a>
+
+                        <a className='social-link' target='_blank' href='https://www.threads.net/@___ianmac___'>
+                            <FontAwesomeIcon icon={faSquareThreads} />
+                        </a>
+
+                        <a className='social-link' target='_blank' href='https://www.instagram.com/___ianmac___/'>
+                            <FontAwesomeIcon icon={faSquareInstagram} />
+                        </a>
+
+                        <a className='social-link' target='_blank' href='https://www.reddit.com/user/ianmac__'>
+                            <FontAwesomeIcon icon={faReddit} />
+                        </a>
                     </div>
                 </div>
             </div>
