@@ -12,6 +12,7 @@ export const Socials = () => {
             <div className='social-card card0'>
                 <div className='social-border'>
                     <h1 className='social-title'>Ian Mac</h1>
+                    <h2 className='social-role'> Creator of InstantMania</h2>
                     <div className='social-icons'>
                         <a className='social-link' target='_blank' href='https://x.com/ianmac__'>
                             <FontAwesomeIcon icon={faXTwitter} />

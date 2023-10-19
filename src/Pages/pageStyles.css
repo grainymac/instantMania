@@ -259,10 +259,16 @@
 }
 
 .social-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ffffff;
     opacity: 1;
     margin: 5px 5px;
+}
+
+.social-role {
+    font-size: 1.7;
+    color: #fff;
+    margin: 0 5px;
 }
 
 .social-link {
@@ -279,6 +285,7 @@
 .social-icons {
     display: flex;
     flex-direction: column;
+    gap: 2px;
     color: #ffffff;
     margin: 5px 5px;
 }
