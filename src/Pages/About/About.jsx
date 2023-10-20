@@ -3,14 +3,14 @@ import './About.css'
 
 export const About = () => {
   return (
-    <>
+    <div className='about-page'>
       <main className='about-container'>
         <h1 className='about-title'>About InstantMania</h1>
         <p>
         Welcome to InstantMania, your ultimate destination for all things instant photography and Polaroid enthusiasts. Whether you're a seasoned pro or just starting your journey into the captivating world of instant film, InstantMania is your go-to hub for exploring, discovering, and learning more about different film types and film frames.
         </p>
 
-        <h2 className='about-subtitle'>What InstantMania Offers:</h2>
+        <h2 className='about-subtitle'>What InstantMania Hopes to Accomplish:</h2>
         <ul>
           <li>
           <b>Film Exploration:</b> Dive into a treasure trove of information about a wide variety of instant film types, from classic Polaroid to modern alternatives. Discover the unique characteristics, color palettes, and effects of each film type, helping you choose the perfect one for your next photo project.
@@ -25,7 +25,7 @@ export const About = () => {
           </li>
 
           <li>
-          <b>Inspiration Galore:</b> Be inspired by a curated collection of stunning instant photography from around the world. Discover new techniques, projects, and trends that will ignite your creative spark.
+          <b>Inspiration Galore:</b> Be inspired by a curated collection of stunning instant photography from other photographers around the world. Discover new techniques, projects, and trends that will ignite your creative spark.
           </li>
 
           <li>
@@ -42,6 +42,6 @@ export const About = () => {
           Join us today and let's embark on an instant photographic adventure together!
           </p>
       </main>
-    </>
+    </div>
   )
 }
