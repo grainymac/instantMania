@@ -85,11 +85,12 @@
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
     .film-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .content {
-        width: 100%; /* Full width on smaller screens */
+        width: 30%; /* Full width on smaller screens */
         max-width: 15rem;
     }
 
@@ -98,8 +99,8 @@
     .polaroid-go,
     .polaroid-sx,
     .polaroid-spectra {
-        width: 100%; /* Full width on smaller screens */
-        height: auto; /* Auto height to maintain aspect ratio */
+        width: 100%;
+        height: 100px;
     }
     
 }/* -------------- NEWS -------------- */
