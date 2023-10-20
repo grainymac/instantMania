@@ -187,15 +187,15 @@
 }
 
 .result-container {
-    position: absolute; /* Set the result container to absolute positioning */
-    top: 120px; /* Adjust the top value as needed to position it below the search bar */
-    max-height: 200px; /* Limit the maximum height of the result container */
-    overflow-y: auto; /* Enable vertical scrolling if the content exceeds the height */
-    background-color: #fff; /* Set the background color for the result container */
-    border: 1px solid #000000; /* Add a border for the result container */
+    position: absolute;
+    top: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #000000;
     border-radius: 1rem;
-    z-index: 1; /* Ensure it's displayed on top of other elements */
-    width: 320px; /* Adjust the width as needed */
+    z-index: 1;
+    width: 320px;
 }
 
 .result-link {

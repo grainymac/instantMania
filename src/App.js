@@ -13,6 +13,7 @@ import { BadURL } from './Error/BadURL.jsx'
 import { UnderConstruction } from './Error/UnderConstruction.jsx'
 import { Development } from './Pages/Development'
 import { Socials } from './Pages/Socials'
+import { About } from './Pages/About/About'
 
 // 600 film
 import { Barbie } from './Pages/Film/600/Barbie'
@@ -102,7 +103,7 @@ export const App = () => {
       <Route path='/itypegallery' element={<UnderConstruction />} />
       <Route path='/gogallery' element={<UnderConstruction />} />
       <Route path='/sx70gallery' element={<UnderConstruction />} />
-      <Route path='/about' element={<UnderConstruction />} />
+      <Route path='/about' element={<About />} />
       <Route path='/development' element={<Development />} />
       <Route path='/support' element={<UnderConstruction />} />
       <Route path='/socials' element={<Socials />} />

@@ -14,19 +14,19 @@ export const Socials = () => {
                     <h1 className='social-title'>Ian Mac</h1>
                     <h2 className='social-role'> Creator of InstantMania</h2>
                     <div className='social-icons'>
-                        <a className='social-link' target='_blank' href='https://x.com/ianmac__'>
+                        <a className='social-link' rel="noreferrer" target='_blank' href='https://x.com/ianmac__'>
                             <FontAwesomeIcon icon={faXTwitter} />
                         </a>
 
-                        <a className='social-link' target='_blank' href='https://www.threads.net/@___ianmac___'>
+                        <a className='social-link' rel="noreferrer" target='_blank' href='https://www.threads.net/@___ianmac___'>
                             <FontAwesomeIcon icon={faSquareThreads} />
                         </a>
 
-                        <a className='social-link' target='_blank' href='https://www.instagram.com/___ianmac___/'>
+                        <a className='social-link' rel="noreferrer" target='_blank' href='https://www.instagram.com/___ianmac___/'>
                             <FontAwesomeIcon icon={faSquareInstagram} />
                         </a>
 
-                        <a className='social-link' target='_blank' href='https://www.reddit.com/user/ianmac__'>
+                        <a className='social-link' rel="noreferrer" target='_blank' href='https://www.reddit.com/user/ianmac__'>
                             <FontAwesomeIcon icon={faReddit} />
                         </a>
                     </div>
