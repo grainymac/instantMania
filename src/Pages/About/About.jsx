@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import { Footer } from '../../Components/Footer'
 
 export const About = () => {
   return (
@@ -43,7 +42,6 @@ export const About = () => {
           Join us today and let's embark on an instant photographic adventure together!
           </p>
       </main>
-      <Footer />
     </div>
   )
 }

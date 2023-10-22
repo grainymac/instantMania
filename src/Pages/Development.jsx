@@ -1,5 +1,4 @@
 import React from 'react'
-import { Footer } from '../Components/Footer'
 
 export const Development = () => {
     return (
@@ -22,7 +21,6 @@ export const Development = () => {
 
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

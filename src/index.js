@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { JokeBar } from './Components/JokeBar'
 import { NavBar } from './Components/NavBar'
+import { Footer } from './Components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <JokeBar />
       <NavBar />
       <App />
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

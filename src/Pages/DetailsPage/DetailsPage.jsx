@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { polaroidFilmData } from '../../data/polaroidFilmData'
-import { Footer } from '../Components/Footer'
 
 export const DetailsPage = () => {
 
@@ -21,7 +20,6 @@ export const DetailsPage = () => {
                 <h3>{selectedElement.title}</h3>
                 <p>{selectedElement.details}</p>
             </div>
-            <Footer />
         </>
     )
 }
