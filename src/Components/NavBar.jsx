@@ -54,7 +54,17 @@ export const NavBar = () => {
                                 <NavLink to='/spectra' className='dropdown-item'>Spectra</NavLink>
                             </div>
                     </div>
-                    <NavLink to='/galleries' className='nav-links'>Galleries</NavLink>
+                    <div className='nav-dropdown'>
+                        <NavLink to='/galleries' className='nav-links'>Galleries</NavLink>
+                            <div className='dropdown-content'>
+                                <NavLink to='/galleries' className='dropdown-item'>All Instant Film</NavLink>
+                                <NavLink to='/polaroidgallery' className='dropdown-item'>600</NavLink>
+                                <NavLink to='/itypegallery' className='dropdown-item'>i-Type</NavLink>
+                                <NavLink to='/gogallery' className='dropdown-item'>Go</NavLink>
+                                <NavLink to='/sx70gallery' className='dropdown-item'>SX-70</NavLink>
+                                <NavLink to='/spectragallery' className='dropdown-item'>Spectra</NavLink>
+                            </div>
+                    </div>
                 </nav>
             </div>
         </>
