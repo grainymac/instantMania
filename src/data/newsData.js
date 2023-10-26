@@ -49,8 +49,17 @@ export const news = [
         title: "Exciting New Feature Added",
         datePublished: "18 October 2023",
         author: "Ian McIntosh",
-        abstract: " Introducing Search Bar Functionality",
+        abstract: "Introducing Search Bar Functionality",
         link: "",
         article: "I have just rolled out a game-changing update that promises to revolutionize the way you use the app. With the new search bar functionality, finding your desired Polaroid film frames and text types has never been easier or more convenient. This innovative feature is set to enhance the user experience, making navigation through the app faster and more intuitive. Some key highlights of the new search bar functionality are: 1. Effortless Search: The search bar makes it effortless to find specific Polaroid film frames and types. Just type in your keywords, and the app will instantly present you with a curated selection. 2. Time-Saving: No more endless scrolling or browsing through numerous options. The search bar function is designed to save your valuable time.  Implementing this new feature was a challenge to implement but later, I plan to make it more robust and responsive adding in more additional features.",
+    },
+    {
+        id: 7,
+        title: "Website Navigation Overhaul",
+        datePublished: "25 October 2023",
+        author: "Ian McIntosh",
+        abstract: "Linking to Film Pages and More!",
+        link: "",
+        article: "I have had plans to update the site's navigation bar to include links to film pages, alongside the existing cards. Additionally, there are plans to replace all photos on the website with ones photographed and curated by me. This marks a significant step towards revamping the user experience and enriching the website's content. While there are exciting developments in the pipeline, the website is not stopping here. Plans are underway to introduce gallery pages, which will feature captivating collections of photos, art, and more. This step will further diversify the website's content and engage users with various forms of instant photography art. With the evolving landscape of web development, I am taking steps to enhance my technical skills by learning how to implement a backend system for the website. This knowledge will allow for more interactive and dynamic features, keeping the website up-to-date with the latest web development trends. In conclusion, InstantMania is undergoing a transformation that promises a more enriching experience for its users. With film pages joining the navigation bar, the introduction of curated images, the upcoming gallery pages, and an investment in backend development, visitors can look forward to an exciting and dynamic online environment. These changes reflect a commitment to staying current in the digital world and ensuring the website's continued success. Stay tuned for more updates as these exciting changes unfold!",
     },
 ]

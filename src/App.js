@@ -104,6 +104,7 @@ export const App = () => {
       <Route path='/itypegallery' element={<UnderConstruction />} />
       <Route path='/gogallery' element={<UnderConstruction />} />
       <Route path='/sx70gallery' element={<UnderConstruction />} />
+      <Route path='/spectragallery' element={<UnderConstruction />} />
       <Route path='/about' element={<About />} />
       <Route path='/development' element={<Development />} />
       <Route path='/support' element={<UnderConstruction />} />
