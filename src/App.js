@@ -14,6 +14,7 @@ import { UnderConstruction } from './Error/UnderConstruction.jsx'
 import { Development } from './Pages/Development'
 import { Socials } from './Pages/Socials'
 import { About } from './Pages/About/About'
+import PolaroidCameraEject from './PolaroidCameraEject'
 
 // 600 film
 import { Barbie } from './Pages/Film/600/Barbie'
@@ -107,6 +108,7 @@ export const App = () => {
       <Route path='/development' element={<Development />} />
       <Route path='/support' element={<UnderConstruction />} />
       <Route path='/socials' element={<Socials />} />
+      <Route path='/eject' element={<PolaroidCameraEject />} />
 
       {/* 600 Film Pages */}
       <Route path='/bnw600' element={<Bnw600 />} />

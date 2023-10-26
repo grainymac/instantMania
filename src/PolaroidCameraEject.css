@@ -1,0 +1,73 @@
+.main-polaroid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #04a5b2;
+    overflow: hidden;
+}
+
+.polaroid-camera {
+    position: relative;
+    top: -50px;
+}
+
+.polaroid-camera:before, .polaroid-camera:after {
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 0;
+    top: 50%;
+    background-color: #faedcd;
+    width: 300px;
+}
+
+.polaroid-camera:before {
+    border-radius: 30px 30px 0 0;
+    height: 150px;
+    box-shadow: inset 0 45px #fefae0;
+}
+
+.polaroid-camera:after {
+    height: 40px;
+    top: -10px;
+}
+
+.polaroid-button {
+    position: absolute;
+    height: 20px;
+    transition: .2s;
+    border-radius: 10px 10px 0 0;
+    background-color: #003049;
+    border: none;
+    top: -95px;
+    width: 50px;
+    left: 50px;
+    cursor: pointer;
+    transform-origin: bottom;
+    z-index: 125;
+}
+
+.polaroid-button:active {
+    transform: scaleY(.5);
+}
+
+.polaroid-lens {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #333;
+    background-color: #ffffff;
+    width: 115px;
+    height: 115px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 0;
+}
+
+.polaroid-lens:before, .polaroid-lens:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%)
+}
