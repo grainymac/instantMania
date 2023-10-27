@@ -10,6 +10,8 @@ const PolaroidCameraEject = () => {
                 <div className='polaroid-lens'>
                     <div className='polaroid-lens-reflection'></div>
                 </div>
+                <div className='flash'></div>
+                <div className='stripes'></div>
             </div>
         </main>
     )
