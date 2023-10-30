@@ -26,6 +26,9 @@ export const Bnw600 = () => {
                         <li>Images begin to emerge after 1 minutes.  Full development takes 5-10 minutes.</li>
                     </ul>
                     <small>
+                        <b>Film Type:</b> Black & White
+                    </small>
+                    <small>
                         <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2, SLR670-type cameras and I-type cameras (Add ND Filter or Mint Flash Bar 2 for using the 600 films on Polaroid SX-70 cameras.)
                     </small>
                 </aside>
