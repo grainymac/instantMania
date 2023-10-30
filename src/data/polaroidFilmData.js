@@ -79,6 +79,7 @@ import roundGoldFrame600 from '../Polaroid/film/impossible-color-film-for-600-go
 import silverFrameSx70 from '../Sx70/film/impossible_prd3106_instant_color_film_for_1042373 (1) 2.jpg'
 import colorFramesSx70 from '../Sx70/film/m_62fc76942fbf1a1d33008d89 2.jpg'
 import luluGuinness from '../Sx70/film/1416496549_IMG_442276 2.jpg'
+import mintFrame from '../Polaroid/film/IMG_7245.jpg'
 
 export const polaroidFilmData = [
     {
@@ -647,5 +648,12 @@ export const polaroidFilmData = [
         image: bnwBlackFrameItype,
         link: '/bnwblackframeitype',
         details: 'The Black Frame Edition is designed to enhance your personal expression, whether for fashion or artistic form. Its matte black frame intensifies black colors and brightens whites, creating striking visual moments. This edition is exclusively available online and focuses on elevating aesthetics.',
+    },
+    {
+        id: 82,
+        title: 'Mint Frame Edition',
+        image: mintFrame,
+        link: '/mintframe',
+        details: '',
     },
 ]

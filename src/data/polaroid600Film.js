@@ -36,6 +36,7 @@ import magentaMono from '../Polaroid/film/IMG_6413.png'
 import tropics from '../Polaroid/film/1528194628_IMG_1000274 2.jpg'
 import blackRoundFrame600 from '../Polaroid/film/impossible_4170_instant_color_film_for_1138057 2.jpg'
 import roundGoldFrame600 from '../Polaroid/film/impossible-color-film-for-600-gold-round-frame-edition-12269-asf 2.jpg'
+import mintFrame from '../Polaroid/film/IMG_7245.jpg'
 
 export const polaroid600Film = [
     {
@@ -303,5 +304,12 @@ export const polaroid600Film = [
         title: 'Round Gold Frame Edition',
         image: roundGoldFrame600,
         link: '/roundgoldframe600',
+    },
+    {
+        id: 41,
+        type: 'Color',
+        title: 'Mint Frame Edition',
+        image: mintFrame,
+        link: '/mintframe',
     },
 ]

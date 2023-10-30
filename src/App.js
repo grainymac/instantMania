@@ -56,6 +56,7 @@ import { SummerFruits } from './Pages/Film/600/SummerFruits'
 import { SummerHaze } from './Pages/Film/600/SummerHaze'
 import { ThirdManRecords } from './Pages/Film/600/ThirdManRecords'
 import { Tropics } from './Pages/Film/600/Tropics'
+import { MintFrame } from './Pages/Film/600/MintFrame'
 
 //i-Type Film
 import { Peanuts } from './Pages/Film/i-Type/Peanuts'
@@ -151,6 +152,7 @@ export const App = () => {
       <Route path='/summerhaze' element={<SummerHaze />} />
       <Route path='/thirdmanrecords' element={<ThirdManRecords />} />
       <Route path='/tropics' element={<Tropics />} />
+      <Route path='/mintframe' element={<MintFrame />} />
       
       {/* i-Type Film Pages */}
       <Route path='/peanuts' element={<Peanuts />} />
