@@ -16,8 +16,17 @@ export const Bnw600 = () => {
                         <br />
                         Polaroid black and white 600 film was first introduced in the mid-1990s. It allowed users of Polaroid 600 series instant cameras to capture black and white photos instantly. This film provided a monochromatic alternative to the traditional color instant film and was popular among photographers looking for a more artistic or classic look in their instant prints.
                     </p>
+                    <ul>
+                        <b>Specs:</b>
+                        <li>Pack of eight instant black&white photos with white frames.</li>
+                        <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
+                        <li>ASA: 640</li>
+                        <li>Format: 3.5 x 4.2 in (8.8 x 10.7 cm).</li>
+                        <li>Image area: 3.1 x 3.1 in (7.9 x 7.9 cm).</li>
+                        <li>Images begin to emerge after 1 minutes.  Full development takes 5-10 minutes.</li>
+                    </ul>
                     <small>
-                        <b>Compatible Cameras:</b> 600 amd i-Type cameras
+                        <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2, SLR670-type cameras and I-type cameras (Add ND Filter or Mint Flash Bar 2 for using the 600 films on Polaroid SX-70 cameras.)
                     </small>
                 </aside>
             </div>
