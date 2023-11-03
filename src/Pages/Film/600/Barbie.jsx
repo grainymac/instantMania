@@ -18,7 +18,7 @@ export const Barbie = () => {
                     </p>
                     <ul>
                         <b>Specs:</b>
-                        <li>Pack of ten instant black&white photos with white frames.</li>
+                        <li>Pack of ten instant photos with white frames.</li>
                         <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
                         <li>ASA: 640</li>
                         <li>Format: 3.5 x 4.2 in (8.8 x 10.7 cm).</li>
