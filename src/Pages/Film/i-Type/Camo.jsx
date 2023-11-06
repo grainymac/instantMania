@@ -11,12 +11,21 @@ export const Camo = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
+                    At times, staying inconspicuous can be advantageous. Photography revolves around seizing the right moment by seamlessly integrating into the environment, allowing life to unfold in front of your camera. I don't encourage surreptitious photography or disrespecting people's consent. However, if you're not looking to do any of that, Camo Film is your ideal choice. Drawing inspiration from military designs, it doesn't really allow you to merge with your surroundings but it provides some interesting colours to frame your photos.
                     </p>
+                    <ul>
+                        <b>Specs:</b>
+                        <li>Pack of eight instant photos with camo frames.</li>
+                        <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
+                        <li>ASA: 640</li>
+                        <li>Format: 3.5 x 4.2 in (8.8 x 10.7 cm).</li>
+                        <li>Image area: 3.1 x 3.1 in (7.9 x 7.9 cm).</li>
+                    </ul>
                     <small>
                         <b>Film Type:</b> Color
                     </small>
                     <small>
-                        <b>Compatible Cameras:</b> i-Type cameras
+                        <b>Compatible Cameras:</b> Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2
                     </small>
                 </aside>
             </div>
