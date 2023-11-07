@@ -7,13 +7,13 @@ export const polaroidGoFilm = [
         type: 'Color',
         title: 'Color Go Film',
         image: goColor,
-        link: '',
+        link: '/colorgo',
     },
     {
         id: 2,
         type: 'Color',
         title: 'Black Frame Edition',
         image: blackFrame,
-        link: '',
+        link: '/blackframego',
     },
 ]
