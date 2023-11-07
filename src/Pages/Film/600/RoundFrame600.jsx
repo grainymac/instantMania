@@ -11,12 +11,21 @@ export const RoundFrame600 = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
+                    Comes with a pack of eight instant photos featuring circular frames, allowing your creativity to shine. Originally introduced in 2014 and still in production today.
                     </p>
+                    <ul>
+                        <b>Specs:</b>
+                        <li>Pack of eight instant photos with white frames.</li>
+                        <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
+                        <li>ASA: 640</li>
+                        <li>Development: Full Development takes 10-15 minutes approx. at 70°F (21°C)</li>
+                    </ul>
+
                     <small>
                         <b>Film Type:</b> Color
                     </small>
                     <small>
-                        <b>Compatible Cameras:</b> 600 and i-Type cameras
+                    <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2
                     </small>
                 </aside>
             </div>

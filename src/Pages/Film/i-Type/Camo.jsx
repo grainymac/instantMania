@@ -16,7 +16,6 @@ export const Camo = () => {
                     <ul>
                         <b>Specs:</b>
                         <li>Pack of eight instant photos with camo frames.</li>
-                        <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
                         <li>ASA: 640</li>
                         <li>Format: 3.5 x 4.2 in (8.8 x 10.7 cm).</li>
                         <li>Image area: 3.1 x 3.1 in (7.9 x 7.9 cm).</li>
