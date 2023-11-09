@@ -8,7 +8,8 @@ import { JokeBar } from './Components/JokeBar'
 import { NavBar } from './Components/NavBar'
 import { Footer } from './Components/Footer'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles.css'
 import film from '../../../polaroidFilm/bnwPolaroid/IMG_6096.jpg'
+import { Link } from 'react-router-dom'
 
 export const Bnw600 = () => {
 
@@ -31,6 +32,7 @@ export const Bnw600 = () => {
                     <small>
                         <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2, SLR670-type cameras and I-type cameras (Add ND Filter or Mint Flash Bar 2 for using the 600 films on Polaroid SX-70 cameras.)
                     </small>
+                    <Link to='/instant'>← back to all film & frames</Link>
                 </aside>
             </div>
         </div>

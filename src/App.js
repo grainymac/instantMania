@@ -88,6 +88,12 @@ import { BlackFrameItype } from './Pages/Film/i-Type/BlackFrameItype'
 import { ColorGo } from './Pages/Film/Go/ColorGo'
 import { BlackFrameGo } from './Pages/Film/Go/BlackFrameGo'
 
+//Spectra Film
+import { BnwSpectra } from './Pages/Film/Spectra/BnwSpectra.jsx'
+
+//Sx70 Film
+import { BnwSx70 } from './Pages/Film/SX70/BnwSx70.jsx'
+
 export const App = () => {
   return (
     <Routes>
@@ -183,6 +189,12 @@ export const App = () => {
       {/* Go Film Pages */}
       <Route path='/colorgo' element={<ColorGo />} />
       <Route path='/blackframego' element={<BlackFrameGo />} />
+
+      {/* Spectra Film Pages */}
+      <Route path='/bnwspectra' element={<BnwSpectra />} />
+
+      {/* SX-70 Film Pages */}
+      <Route path='/bnwsx70' element={<BnwSx70 />} />
     </Routes>
   );
 }
