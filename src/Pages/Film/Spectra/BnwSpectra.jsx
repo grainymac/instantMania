@@ -25,6 +25,7 @@ export const BnwSpectra = () => {
                     <small>
                         <b>Compatible Cameras:</b> Spectra cameras
                     </small>
+                    <Link to='/spectra'>← back spectra film & frames</Link>
                     <Link to='/instant'>← back to all film & frames</Link>
                 </aside>
             </div>

@@ -90,6 +90,9 @@ import { BlackFrameGo } from './Pages/Film/Go/BlackFrameGo'
 
 //Spectra Film
 import { BnwSpectra } from './Pages/Film/Spectra/BnwSpectra.jsx'
+import { ColorSpectra } from './Pages/Film/Spectra/ColorSpectra.jsx'
+import { BlackFrameSpectra } from './Pages/Film/Spectra/BlackFrameSpectra.jsx'
+import { Grid } from './Pages/Film/Spectra/Grid.jsx'
 
 //Sx70 Film
 import { BnwSx70 } from './Pages/Film/SX70/BnwSx70.jsx'
@@ -192,6 +195,9 @@ export const App = () => {
 
       {/* Spectra Film Pages */}
       <Route path='/bnwspectra' element={<BnwSpectra />} />
+      <Route path='/colorspectra' element={<ColorSpectra />} />
+      <Route path='/grid' element={<Grid />} />
+      <Route path='/blackframespectra' element={<BlackFrameSpectra />} />
 
       {/* SX-70 Film Pages */}
       <Route path='/bnwsx70' element={<BnwSx70 />} />
