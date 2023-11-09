@@ -96,6 +96,12 @@ import { Grid } from './Pages/Film/Spectra/Grid.jsx'
 
 //Sx70 Film
 import { BnwSx70 } from './Pages/Film/SX70/BnwSx70.jsx'
+import { BlackFrameSx70 } from './Pages/Film/SX70/BlackFrameSx70.jsx'
+import { ColorFramesSx70 } from './Pages/Film/SX70/ColorFramesSx70.jsx'
+import { ColorSx70 } from './Pages/Film/SX70/ColorSx70.jsx'
+import { GoldFrameSx70 } from './Pages/Film/SX70/GoldFrameSx70.jsx'
+import { HardColorSx70 } from './Pages/Film/SX70/HardColorSx70.jsx'
+import { LuluGuinness } from './Pages/Film/SX70/LuluGuinness.jsx'
 
 export const App = () => {
   return (
@@ -201,6 +207,12 @@ export const App = () => {
 
       {/* SX-70 Film Pages */}
       <Route path='/bnwsx70' element={<BnwSx70 />} />
+      <Route path='/blackframesx70' element={<BlackFrameSx70 />} />
+      <Route path='/colorframesx70' element={<ColorFramesSx70 />} />
+      <Route path='/colorsx70' element={<ColorSx70 />} />
+      <Route path='/goldframesx70' element={<GoldFrameSx70 />} />
+      <Route path='/hardcolorsx70' element={<HardColorSx70 />} />
+      <Route path='/luluguinness' element={<LuluGuinness />} />
     </Routes>
   );
 }
