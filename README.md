@@ -1,3 +1,4 @@
+![Screenshot 2023-11-11 at 9 04 52 AM](https://github.com/grainymac/instantMania/assets/106535343/244ab522-259a-40c4-81d1-5b08fb0b1d69)
 # InstantMania: Explore the World of Polaroid Film Frames and Types
 
 Welcome to InstantMania, your gateway to the captivating world of Polaroid film frames and types.  My web application, meticulously crafted with React.js, JavaScript, HTML, CSS, and a suite of other powerful libraries, invites you to embark on a nostalgic journey through the iconic Polaroid film frames and their vibrant variations.
