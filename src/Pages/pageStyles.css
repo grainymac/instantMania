@@ -86,12 +86,17 @@
 @media screen and (max-width: 768px) {
     .film-container {
         flex-direction: row;
+        justify-content: space-evenly;
         flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 10px;
+        padding: 0;
     }
 
     .content {
-        width: 30%;
+        width: 11.5rem;
         max-width: 15rem;
+        border-radius: 2px;
     }
 
     .polaroid-six,
@@ -100,10 +105,31 @@
     .polaroid-sx,
     .polaroid-spectra {
         width: 100%;
-        height: 100px;
+        height: 160px;
+        border-radius: 2px;
+    }
+
+    .content-details {
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+        transform: none;
+    }
+
+    .content-details p {
+        color: #000;
+        font-size: 0.8em;
+    }
+
+    .content-film-name {
+        color: #000000;
+        font-weight: bold;
+        margin-bottom: 25px;
     }
     
-}/* -------------- NEWS -------------- */
+}
+
+/* -------------- NEWS -------------- */
 .news-container {
     display: flex;
     flex-direction: column;
