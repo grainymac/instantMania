@@ -12,11 +12,20 @@ export const RoundBlackFrame600 = () => {
                 <aside className='text-container'>
                     <p>
                     </p>
+                    <ul>
+                        <b>Specs:</b>
+                        <li>Pack of eight instant photos with white frames.</li>
+                        <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
+                        <li>ASA: 640</li>
+                        <li>Development: Full Development takes 15-20 minutes approx. at 70°F (21°C)</li>
+                        <li>Image Area: 7.1 in²</li>
+                        <li>Color Protection Formula</li>
+                    </ul>
                     <small>
                         <b>Film Type:</b> Color
                     </small>
                     <small>
-                        <b>Compatible Cameras:</b> 600 and i-Type cameras
+                        <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2
                     </small>
                 </aside>
             </div>
