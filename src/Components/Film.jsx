@@ -13,7 +13,6 @@ export const Film = () => {
                             <h3>600 Film</h3>
                         </div>
                     </Link>
-                    <aside className='content-film-name'>600 Film</aside>
                 </div>
 
                 <div className='content'>
@@ -24,7 +23,6 @@ export const Film = () => {
                             <h3>I-Type Film</h3>
                         </div>
                     </Link>
-                    <aside className='content-film-name'>i-Type Film</aside>
                 </div>
 
                 <div className='content'>
@@ -35,7 +33,6 @@ export const Film = () => {
                             <h3>Go Film</h3>
                         </div>
                     </Link>
-                    <aside className='content-film-name'>Go Film</aside>
                 </div>
 
                 <div className='content'>
@@ -46,7 +43,6 @@ export const Film = () => {
                             <h3>SX-70 Film</h3>
                         </div>
                     </Link>
-                    <aside className='content-film-name'>SX-70 Film</aside>
                 </div>
 
                 <div className='content'>
@@ -57,7 +53,6 @@ export const Film = () => {
                             <h3>Spectra Film</h3>
                         </div>
                     </Link>
-                    <aside className='content-film-name'>Spectra Film</aside>
                 </div>
             </div>
         </>
