@@ -8,7 +8,7 @@ export const Film = () => {
             <div className='film-container'>
                 <div className='content'>
                     <div className='content-overlay'></div>
-                    <Link to='/polaroid' className='nav-links'><img src='https://images.pexels.com/photos/3945344/pexels-photo-3945344.jpeg?auto=compress&cs=tinysrgb&w=400' className='polaroid-six polaroids' alt='polaroid 600' />
+                    <Link to='/polaroid' className='nav-links'><img src='https://images.pexels.com/photos/105040/pexels-photo-105040.jpeg?auto=compress&cs=tinysrgb&w=1600' className='polaroid-six polaroids' alt='polaroid 600' />
                         <div className='content-details'>
                             <h3>600 Film</h3>
                         </div>
@@ -19,7 +19,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/itype' className='nav-links'>
-                        <img src='https://images.pexels.com/photos/3779497/pexels-photo-3779497.jpeg?auto=compress&cs=tinysrgb&w=400' className='polaroid-itype polaroids' alt='polaroid itype' />
+                        <img src='https://images.pexels.com/photos/1655309/pexels-photo-1655309.jpeg?auto=compress&cs=tinysrgb&w=1600' className='polaroid-itype polaroids' alt='polaroid itype' />
                         <div className='content-details'>
                             <h3>I-Type Film</h3>
                         </div>
@@ -30,7 +30,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/go' className='nav-links'>
-                        <img src='https://i5.walmartimages.com/asr/54b1a29c-2086-4768-956e-bd9fad391e54.7ebbcfdb8294de77a92bac7c8e8383ad.jpeg' className='polaroid-go polaroids' alt='polaroid go' />
+                        <img src='https://imgix.bustle.com/uploads/image/2021/5/7/5bef6e2b-c7a0-4fbd-8177-e24d34c309db-polaroid-go-review-8.jpg?w=2000&h=1090&fit=crop&crop=focalpoint&auto=format%2Ccompress&fp-x=0.5613333333333334&fp-y=0.528&blend=000000&blendAlpha=45&blendMode=normal' className='polaroid-go polaroids' alt='polaroid go' />
                         <div className='content-details'>
                             <h3>Go Film</h3>
                         </div>
@@ -41,7 +41,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/sx' className='nav-links'>
-                        <img src='https://www.acmebrooklyn.com/wp-content/uploads/2020/09/VC065-alt-852x1280.jpg' className='polaroid-sx polaroids' alt='polaroid sx70' />
+                        <img src='https://i.pcmag.com/imagery/articles/06RIfWw40ih8PSN0AuLhm0U-1..v1646168421.jpg' className='polaroid-sx polaroids' alt='polaroid sx70' />
                         <div className='content-details'>
                             <h3>SX-70 Film</h3>
                         </div>
@@ -52,7 +52,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/spectra' className='nav-links'>
-                        <img src='https://retrospekt.com/cdn/shop/articles/3C1B9BA3-D932-4A50-A317-3746515A7999.JPG?crop=center&height=1200&v=1570055259&width=1200' className='polaroid-spectra polaroids' alt='polaroid spectra' />
+                        <img src='https://retrochronicle.com/wp-content/uploads/2015/07/IMG_9022.jpg' className='polaroid-spectra polaroids' alt='polaroid spectra' />
                         <div className='content-details'>
                             <h3>Spectra Film</h3>
                         </div>

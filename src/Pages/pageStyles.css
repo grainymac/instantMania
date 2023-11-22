@@ -4,23 +4,25 @@
 .film-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
     position: relative;
-    width: 15rem;
-    margin: auto;
+    width: auto;
     overflow: hidden;
+    height: 180px;
+    width: 350px;
+    background-color: red;
 }
 
 .content .content-overlay {
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 2rem;
     position: absolute;
-    height: 99%;
-    width: 15rem;
+    width: auto;
     left: 0;
     top: 0;
     bottom: 0;
@@ -77,9 +79,8 @@
 .polaroid-go,
 .polaroid-sx,
 .polaroid-spectra {
-    height: 20rem;
-    width: 15rem;
-    border-radius: 2rem;
+    width: 350px;
+    height: 180px;
 }
 
 /* Media query for mobile devices */
