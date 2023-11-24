@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles.css'
 import film from '../../../iType/film/IMG_6183.jpg'
-import { Link } from 'react-router-dom'
 
 export const Camo = () => {
 

@@ -18,6 +18,7 @@ export const PoisonedParadise = () => {
                         <li>Pack of eight instant photos </li>
                         <li>Integrated long-lasting battery to power your Polaroid camera and flash.</li>
                         <li>ASA: 640</li>
+                        <li>Development: Full Development takes 15-20 minutes approx. at 70°F (21°C)</li>
                         <li>Image Area: 7.1 in²</li>
                     </ul>
                     <small>
