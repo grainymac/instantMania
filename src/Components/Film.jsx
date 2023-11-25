@@ -48,7 +48,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/spectra' className='nav-links'>
-                        <img src='https://retrochronicle.com/wp-content/uploads/2015/07/IMG_9022.jpg' className='polaroid-spectra polaroids' alt='polaroid spectra' />
+                        <img src='https://casualphotophile.com/wp-content/uploads/2017/09/Minolta-Instant-Pro-product-shots-4.jpg' className='polaroid-spectra polaroids' alt='polaroid spectra' />
                         <div className='content-details'>
                             <h3>Spectra Film</h3>
                         </div>
