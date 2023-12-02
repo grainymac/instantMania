@@ -1,7 +1,7 @@
 import React from 'react'
-import './pageStyles.css'
-import { news } from '../data/newsData.js'
-import { NewsHero } from '../Components/NewsHero'
+import './News.css'
+import { news } from '../../data/newsData.js'
+import { NewsHero } from './NewsHero.jsx'
 
 export const News = () => {
 
