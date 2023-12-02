@@ -77,10 +77,11 @@
     }
 
     .news-container {
-        gap: 40px;
+        gap: 30px;
     }
 
     .news-article {
+        margin: 0;
         width: 75%;
         border-radius: 2rem;
     }
