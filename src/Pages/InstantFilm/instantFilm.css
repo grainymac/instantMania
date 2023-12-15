@@ -12,47 +12,13 @@
     align-items: center;
 }
 
-.hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    margin: 10px 10px;
-    height: 50vh;
-    width: 98%;
-    overflow: hidden;
-}
-
-.hero-image {
-    max-width: 1200px;
-    transition: box-shadow 0.3s;
-    border-radius: 2rem;
-}
-
-.hero-image:hover {
-    cursor: crosshair;
-}
-
-@media (max-width: 768px) {
-    .hero-container {
-        height: auto;
-        padding: 0;
-    }
-
-    .hero-image {
-        border-radius: 0;
-        width: 500px;
-    }
-}
-
 .instant-card-title {
-    text-align: left;
+    text-align: center;
     margin: 3px 5px;
     padding: 0;
-    text-align: center;
     color: #000;
     font-family: "Real Head Web W04 Medium";
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .polaroid-film-frame-container {
@@ -72,20 +38,19 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    width: 14rem;
+    width: 16rem;
     height: 33vh;
-    border-radius: 1rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .polaroid-card-details:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+    border-radius: 2rem;
 }
 
 .polaroid-card-image {
     height: auto;
-    width: 180px;
+    width: 200px;
     border-radius: .5rem;
     margin: 10px 10px;
     padding: 0;
@@ -118,11 +83,11 @@
     }
 }
 
-.details-button {
-    background-color: #000000e1;
+.motion-button {
+    background-color: transparent;
     border-radius: 2rem;
-    color: #ffffff;
-    height: 1.5rem;
+    border: none;
+
 }
 .details-button:hover {
     cursor: pointer;
