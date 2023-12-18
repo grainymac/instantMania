@@ -1,6 +1,5 @@
 import React from 'react'
 import './instantFilm.css'
-import { InstantHero } from './InstantHero'
 import { InstantCard } from './InstantCard'
 import { Footer } from '../../Components/Footer'
 
