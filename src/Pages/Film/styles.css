@@ -30,3 +30,21 @@
     justify-content: left;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .detail-container img {
+        height: 30vh;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 1rem;
+    }
+
+    .detail-container {
+        width: auto;
+        margin: 0 20px;
+    }
+}

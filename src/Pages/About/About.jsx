@@ -17,7 +17,7 @@ export const About = () => {
           </li>
 
           <li>
-          <b>Frame Your Memories:</b> Explore the world of instant film frames. Learn about different frame styles and their impact on the overall look of your photographs. Whether you're aiming for a vintage, retro feel or a modern, minimalistic look, we've got you covered.
+          <b>Frame Your Memories:</b> Explore the world of instant film frames. Learn about different frame styles and their impact on the overall look of your photographs.
           </li>
 
           <li>
@@ -35,7 +35,7 @@ export const About = () => {
 
         <h2 className='about-subtitle'>Why InstantMania</h2>
           <p>
-          We created InstantMania because we understand the unique charm of instant photography and the desire to explore it further. In a world where digital reigns supreme, we celebrate the tangible, the immediate, and the one-of-a-kind beauty that instant film offers. Our mission is to foster a thriving community of like-minded individuals and help you make the most of your instant photography journey.
+          I created InstantMania because I understand the unique charm of instant photography and the desire to explore it further. In a world where digital reigns supreme, I celebrate and invite the tangible, the immediate, and the one-of-a-kind beauty that instant film offers. Our mission is to foster a thriving community of like-minded individuals and help you make the most of your instant photography journey.
 
           So, whether you're an experienced instant photographer or a complete novice, InstantMania is here to fuel your passion, spark your creativity, and help you embark on an unforgettable journey through the world of instant film.
 

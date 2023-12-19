@@ -30,7 +30,6 @@ export const InstantCard = () => {
                             <div key={id} className='polaroid-card-details'>
                                 <img className='polaroid-card-image' src={image} alt='polaroid' />
                                 <h4 className='polaroid-card-title'>{title}</h4>
-
                             </div>
                         </motion.button>
                     </Link>

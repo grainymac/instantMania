@@ -36,7 +36,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 16rem;
     height: 33vh;
@@ -69,18 +69,19 @@
 @media (max-width: 768px) {
     .polaroid-card-details {
         height: auto;
-        width: 150px;
+        width: auto;
         padding-bottom: 5px;
     }
 
     .polaroid-card-image {
-        height: 100px;
-        width: auto;
+        height: auto;
+        width: 150px;
     }
 
     .polaroid-card-title {
         font-size: 12px;
     }
+
 }
 
 .motion-button {
