@@ -1,6 +1,6 @@
 import React from 'react'
 import './pageStyles.css'
-import { Hero } from '../Components/Hero'
+import { Hero } from '../Components/Hero/Hero'
 import { Film } from '../Components/Film'
 
 export const Home = () => {

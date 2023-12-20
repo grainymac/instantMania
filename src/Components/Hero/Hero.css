@@ -1,0 +1,46 @@
+.hero-container {
+    position: relative;
+    background-color: yellow; /* Set the background color here */
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto; /* Change to auto for responsive height */
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  button {
+    background-color: #3f3f3f50;
+    border: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #ffffff;
+    height: 100%;
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    .hero-container {
+        height: 100vh;
+    }
+
+    .hero-image {
+        height: 40vh;
+    }
+  
+    button {
+      width: 100%; /* Make buttons full width on small screens */
+      height: auto; /* Adjust height as needed */
+    }
+  }
+  
