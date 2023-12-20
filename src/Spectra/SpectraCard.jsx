@@ -9,13 +9,12 @@ export const SpectraCard = () => {
     return (
         <div className='spectraCard-container'>
             {film.map(({ id, type, title, image, link }) => (
-                <div key={id} className='spectraCard'>
-                    <Link to={link}>
+                <Link to={link}>
+                    <div key={id} className='spectraCard'>
                         <img className='spectraImage' src={image} alt='polaroid' />
-                    </Link>
-                    <h4 className='spectraTitle'>{title}</h4>
-                    <small>{type}</small>
-                </div>
+                        <h4 className='spectraTitle'>{title}</h4>
+                    </div>
+                </Link>
             ))}
         </div>
     )
