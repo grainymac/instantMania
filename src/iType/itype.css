@@ -1,7 +1,7 @@
 .itype-page-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
+    grid-gap: 1rem;
 }
 
 .itypeCard-container {
@@ -22,9 +22,17 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    width: 14rem;
-    height: 33vh;
+    width: 16rem;
+    height: auto;
     border-radius: 2rem;
+}
+
+.itypeCard:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+    border-radius: 1.5rem;
+    height: auto;
+    padding-bottom: 5px;
 }
 
 .itypeTitle {
@@ -34,15 +42,10 @@
     color: #000;
     font-family: "Real Head Web W04 Medium"
 }
-.itypecard small {
-    margin: 10px 5px;
-    padding: 0;
-    font-weight: bold;
-}
 
 .itypeImage {
     height: auto;
-    width: 180px;
+    width: 250px;
     border-radius: .5rem;
     margin: 10px 10px;
     padding: 0;

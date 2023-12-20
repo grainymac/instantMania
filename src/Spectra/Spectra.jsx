@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { SpectraHero } from './SpectraHero'
 import { SpectraCard } from './SpectraCard'
 import './spectra.css'

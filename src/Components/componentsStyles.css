@@ -370,31 +370,38 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    width: 14rem;
-    height: 33vh;
+    width: 16rem;
+    height: auto;
     border-radius: 2rem;
 }
 
+.polaCard:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+    border-radius: 1.5rem;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 .polaTitle {
-    margin: 0;
+    margin: 3px 5px;
     padding: 0;
     text-align: center;
     color: #000;
     font-family: "Real Head Web W04 Medium"
 }
 
-.polacard small {
-    margin: 5px 5px;
-    padding: 0;
-    font-weight: bold;
-}
-
 .polaImage {
     height: auto;
-    width: 160px;
+    width: 250px;
     border-radius: .5rem;
     margin: 10px 10px;
     padding: 0;
+}
+
+.motion {
+    background-color: transparent;
+    border: none;
 }
 
 /* ------------- Backdrop ------------- */

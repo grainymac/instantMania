@@ -1,8 +1,7 @@
 .instant-film-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
+    grid-gap: 1rem;
 }
 
 .instant-card-film-container {
@@ -27,7 +26,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     margin: 0 20px;
 }
 
@@ -39,18 +38,19 @@
     justify-content: center;
     align-items: center;
     width: 16rem;
-    height: 33vh;
+    height: auto;
 }
 
 .polaroid-card-details:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     cursor: pointer;
     border-radius: 2rem;
+    padding-bottom: 5px;
 }
 
 .polaroid-card-image {
     height: auto;
-    width: 200px;
+    width: 220px;
     border-radius: .5rem;
     margin: 10px 10px;
     padding: 0;

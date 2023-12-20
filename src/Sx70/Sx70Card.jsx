@@ -11,7 +11,6 @@ export const Sx70Card = () => {
                 <div key={id} className='sx70Card'>
                     <img className='sx70Image' src={image} alt='polaroid' />
                     <h4 className='sx70Title'>{title}</h4>
-                    <small>{type}</small>
                 </div>
             ))}
         </div>

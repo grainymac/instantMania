@@ -9,13 +9,12 @@ export const ItypeCard = () => {
     return (
         <div className='itypeCard-container'>
             {film.map(({ id, type, title, image, link }) => (
-                <div key={id} className='itypeCard'>
-                    <Link to={link}>
+                <Link to={link}>
+                    <div key={id} className='itypeCard'>
                         <img className='itypeImage' src={image} alt='polaroid' />
-                    </Link>
-                    <h4 className='itypeTitle'>{title}</h4>
-                    <small>{type}</small>
-                </div>
+                        <h4 className='itypeTitle'>{title}</h4>
+                    </div>
+                </Link>
             ))}
         </div>
     )

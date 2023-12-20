@@ -9,13 +9,12 @@ export const GoCard = () => {
     return (
         <div className='goCard-container'>
             {film.map(({ id, type, title, image, link }) => (
-                <div key={id} className='goCard'>
-                    <Link to={link}>
+                <Link to={link}>
+                    <div key={id} className='goCard'>
                         <img className='goImage' src={image} alt='polaroid' />
-                    </Link>
-                    <h4 className='goTitle'>{title}</h4>
-                    <small>{type}</small>
-                </div>
+                        <h4 className='goTitle'>{title}</h4>
+                    </div>
+                </Link>
             ))}
         </div>
     )
