@@ -12,6 +12,7 @@ export const Summer = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
+                    Looking to capture your sunny summer memories in a way that’s as vibrant as your adventures? With a random mix of 16 bright, bold and pastel-colored frames you can amp up the summer vibe and make your memories full of color—you bring the fun, we’ll bring the film.
                     </p>
                     <ul>
                         <b>Specs:</b>
@@ -24,7 +25,7 @@ export const Summer = () => {
                         <b>Film Type:</b> Color
                     </small>
                     <small>
-                        <b>Compatible Cameras:</b>Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2
+                        <b>Compatible Cameras:</b>Polaroid I-2, Now Generation 2, Polaroid Now+ Generation 2, Polaroid Now Generation 1, Polaroid Now+ Generation 1, Polaroid Lab, OneStep 2, and OneStep+
                     </small>
                     <Link to='/instant'>← back to all film & frames</Link>
 

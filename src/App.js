@@ -83,6 +83,7 @@ import { SummerBlues } from './Pages/Film/i-Type/SummerBlues'
 import { Summer } from './Pages/Film/i-Type/Summer'
 import { TheMandalorian } from './Pages/Film/i-Type/TheMandalorian'
 import { BlackFrameItype } from './Pages/Film/i-Type/BlackFrameItype'
+import { Pantone } from './Pages/Film/i-Type/Pantone.jsx'
 
 //Go Film
 import { ColorGo } from './Pages/Film/Go/ColorGo'
@@ -194,6 +195,7 @@ export const App = () => {
       <Route path='/summerblues' element={<SummerBlues />} />
       <Route path='/summer' element={<Summer />} />
       <Route path='/themandalorian' element={<TheMandalorian />} />
+      <Route path='/pantone' element={<Pantone />} />
 
       {/* Go Film Pages */}
       <Route path='/colorgo' element={<ColorGo />} />

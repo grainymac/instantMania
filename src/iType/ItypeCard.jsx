@@ -5,6 +5,19 @@ import './itype.css'
 
 const film = polaroidItypeFilm
 
+    film.sort((a, b) => {
+        const titleA = a.title.toLowerCase()
+        const titleB = b.title.toLowerCase()
+
+        if (titleA < titleB) {
+            return -1
+        }
+        if (titleA > titleB) {
+            return 1
+        }
+        return 0
+    })
+
 export const ItypeCard = () => {
     return (
         <div className='itypeCard-container'>

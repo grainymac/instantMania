@@ -12,6 +12,8 @@ export const ColorFrameItype = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
+                    Brighten them up. Fire them up. Spice them up. Make your photos POP with 8 block-colored frames—a colorful, vibrant twist on the classic i-Type white frames.
+                    Red, purple, blue, yellow, orange, and green.
                     </p>
                     <ul>
                         <b>Specs:</b>
@@ -19,6 +21,7 @@ export const ColorFrameItype = () => {
                         <li>ASA: 640</li>
                         <li>Format: 3.5 x 4.2 in (8.8 x 10.7 cm).</li>
                         <li>Image area: 3.1 x 3.1 in (7.9 x 7.9 cm).</li>
+                        <li>Colorful frames</li>
                     </ul>
                     <small>
                         <b>Film Type:</b> Color

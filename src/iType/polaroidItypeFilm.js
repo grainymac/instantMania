@@ -184,4 +184,11 @@ export const polaroidItypeFilm = [
         image: retinex,
         link: '/retinex',
     },
+    {
+        id: 24,
+        type: 'Color',
+        title: 'Pantone Color of the Year 2024 Edition',
+        image: '',
+        link: '/pantone',
+    },
 ]

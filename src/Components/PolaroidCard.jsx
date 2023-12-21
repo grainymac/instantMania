@@ -3,9 +3,23 @@ import { Link } from 'react-router-dom'
 import { polaroid600Film } from '../data/polaroid600Film'
 import { motion } from 'framer-motion'
 
-const film = polaroid600Film
 
 export const PolaroidCard = () => {
+    const film = polaroid600Film
+
+    film.sort((a, b) => {
+        const titleA = a.title.toLowerCase()
+        const titleB = b.title.toLowerCase()
+
+        if (titleA < titleB) {
+            return -1
+        }
+        if (titleA > titleB) {
+            return 1
+        }
+        return 0
+    })
+
     return (
         <div className='polaroidCard-container'>
             {film.map(({ id, type, title, image, link }) => (
