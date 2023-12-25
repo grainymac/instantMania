@@ -22,7 +22,6 @@ export const InstantCard = () => {
 
     return (
         <>
-            <h2 className="instant-card-title">Polaroid Film & Frames</h2>
             <div className='polaroid-film-frame-container'>
                 {film.map(({ id, link, title, image, details }) => (
                     <Link to={link}>
@@ -34,11 +33,6 @@ export const InstantCard = () => {
                         </motion.button>
                     </Link>
                 ))}
-            </div>
-
-            <h2 className="title">Instax Film & Frames</h2>
-            <div className="film-card-container">
-                <p>coming soon!</p>
             </div>
         </>
     )

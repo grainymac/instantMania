@@ -27,7 +27,7 @@ export const BnwSpectra = () => {
                     <small>
                         <b>Compatible Cameras:</b> Spectra Law Enforcement Kit; ProCam; Jewelry Pro; All Image cameras; and Minolta Pro. Spectra 1200FF Spectra Close-Up Kit: HealthCam Kit: Spectra 1200i: Spectra 1200si: Spectra AF Macro 3 SLR Camera Macro 5 SLR Camera
                     </small>
-                    <Link to='/spectra'>← back spectra film & frames</Link>
+                    <Link to='/spectra'>← back to spectra film & frames</Link>
                     <Link to='/instant'>← back to all film & frames</Link>
                 </aside>
             </div>

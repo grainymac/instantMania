@@ -1,14 +1,15 @@
 .instant-film-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
-    grid-gap: 1rem;
-}
-
-.instant-card-film-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.instant-card-film-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
+    grid-gap: 1rem;
 }
 
 .instant-card-title {
