@@ -68,6 +68,11 @@
 }
 
 @media (max-width: 768px) {
+    .instant-card-title {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
     .polaroid-card-details {
         height: auto;
         width: auto;
@@ -76,11 +81,11 @@
 
     .polaroid-card-image {
         height: auto;
-        width: 150px;
+        width: 230px;
     }
 
     .polaroid-card-title {
-        font-size: 12px;
+        font-size: 22px;
     }
 
 }
