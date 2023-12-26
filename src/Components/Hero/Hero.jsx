@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Hero.css'
 
 const heroImages = [
@@ -14,13 +14,14 @@ const heroImages = [
     'https://images.pexels.com/photos/2961978/pexels-photo-2961978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/3945348/pexels-photo-3945348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/2567984/pexels-photo-2567984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://images.pexels.com/photos/105040/pexels-photo-105040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ]
 
 export const Hero = () => {
 
     const [currentImage, setCurrentImage] = useState(0)
-
     const totalSlides = heroImages.length
+    const autoPlayInterval = 1000
 
     const next = () => {
         setCurrentImage((prevImage) => (prevImage + 1) % totalSlides)
@@ -29,6 +30,14 @@ export const Hero = () => {
     const previous = () => {
         setCurrentImage((prevImage) => (prevImage - 1 + totalSlides) % totalSlides)
     }
+
+    useEffect(() => {
+        const autoPlayTimer = setInterval(next, autoPlayInterval)
+
+        return () => {
+            clearInterval(autoPlayTimer)
+        }
+    }, [currentImage])
 
     return (
         <>
