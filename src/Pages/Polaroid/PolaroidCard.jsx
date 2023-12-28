@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { polaroid600Film } from '../data/polaroid600Film'
+import { polaroid600Film } from '../../data/polaroid600Film'
 import { motion } from 'framer-motion'
 
 

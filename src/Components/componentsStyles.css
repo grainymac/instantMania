@@ -81,6 +81,7 @@
         justify-content: space-between;
         align-items: center;
         height: 6vh;
+        width: 100%;
     }
 
     .joke-text-container {
@@ -219,6 +220,7 @@
         justify-content: center;
         align-items: center;
         height: auto;
+        width: fit-content;
     }
 
     .logo-container {
@@ -232,9 +234,11 @@
     }
 
     .links-container {
+        justify-content: center;
         margin: 0;
-        padding: 0;
-        gap: 40px;
+        padding: 0 5px;
+        width: auto;
+        gap: 30px;
     }
 
     .links li {
@@ -293,8 +297,11 @@
 
 @media (max-width: 768px) {
     .hero-container {
+        display: flex;
+        justify-content: center;
         height: auto;
         padding: 0;
+        width: 100%;
     }
 
     .hero-image {

@@ -68,6 +68,14 @@
 }
 
 @media (max-width: 768px) {
+    .pola-container {
+        width: 100px;
+    }
+
+    .pola-hero {
+        width: 100px;
+    }
+
     .instant-card-title {
         font-size: 30px;
         margin: 0 auto;

@@ -1,3 +1,14 @@
+.sx-header {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.sx-hero {
+    height: auto;
+}
+
 .sx-page-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
@@ -55,4 +66,29 @@
     text-align: center;
     text-decoration: none;
     font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .sx-hero {
+        width: 500px;
+    }
+
+    .sx70Card-container {
+        gap: 50px;
+    }
+
+    .sx70Title {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .sx70Image {
+        height: auto;
+        width: 230px;
+    }
+
+    .sx70Title {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
 }

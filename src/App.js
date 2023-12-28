@@ -5,7 +5,7 @@ import { Home } from './Pages/Home'
 import { Go } from './Go/Go'
 import { IType } from './iType/IType'
 import { Spectra } from './Spectra/Spectra'
-import { Polaroid } from './Pages/Polaroid'
+import { Polaroid } from './Pages/Polaroid/Polaroid'
 import { InstantFilm } from './Pages/InstantFilm/InstantFilm.jsx'
 import { Sx } from './Sx70/Sx'
 import { News } from './Pages/News/News.jsx'
@@ -98,11 +98,18 @@ import { Grid } from './Pages/Film/Spectra/Grid.jsx'
 //Sx70 Film
 import { BnwSx70 } from './Pages/Film/SX70/BnwSx70.jsx'
 import { BlackFrameSx70 } from './Pages/Film/SX70/BlackFrameSx70.jsx'
+import { RoundBlackFrameSx70 } from './Pages/Film/SX70/RoundBlackFrameSx70.jsx'
+import { GoldFrameSx70 } from './Pages/Film/SX70/GoldFrameSx70.jsx'
+import { RoundGoldFrameSx70 } from './Pages/Film/SX70/RoundGoldFrameSx70.jsx';
 import { ColorFramesSx70 } from './Pages/Film/SX70/ColorFramesSx70.jsx'
 import { ColorSx70 } from './Pages/Film/SX70/ColorSx70.jsx'
-import { GoldFrameSx70 } from './Pages/Film/SX70/GoldFrameSx70.jsx'
 import { HardColorSx70 } from './Pages/Film/SX70/HardColorSx70.jsx'
 import { LuluGuinness } from './Pages/Film/SX70/LuluGuinness.jsx'
+import { SilverFrameSx70 } from './Pages/Film/SX70/SilverFrameSx70.jsx'
+import { TimeZero } from './Pages/Film/SX70/TimeZero.jsx'
+import { SaintLaurent } from './Pages/Film/SX70/SaintLaurent.jsx'
+import { RoundColorFramesSx70 } from './Pages/Film/SX70/RoundColorFramesSx70.jsx'
+import { SkinsSx70 } from './Pages/Film/SX70/SkinsSx70.jsx'
 
 export const App = () => {
   return (
@@ -209,12 +216,22 @@ export const App = () => {
 
       {/* SX-70 Film Pages */}
       <Route path='/bnwsx70' element={<BnwSx70 />} />
-      <Route path='/blackframesx70' element={<BlackFrameSx70 />} />
-      <Route path='/colorframesx70' element={<ColorFramesSx70 />} />
       <Route path='/colorsx70' element={<ColorSx70 />} />
+      <Route path='/bnwblackframesx70' element={<UnderConstruction />} />
+      <Route path='/bnwhardcolorsx70' element={<UnderConstruction />} />
+      <Route path='/roundblackframesx70' element={<RoundBlackFrameSx70 />} />
       <Route path='/goldframesx70' element={<GoldFrameSx70 />} />
-      <Route path='/hardcolorsx70' element={<HardColorSx70 />} />
+      <Route path='/roundgoldframesx70' element={<RoundGoldFrameSx70 />} />
+      <Route path='/roundframesx70' element={<RoundColorFramesSx70 />} />
+      <Route path='/silverframesx70' element={<SilverFrameSx70 />} />
+      <Route path='/timezero' element={<TimeZero />} />
+      <Route path='/saintlaurent' element={<SaintLaurent />} />
+      <Route path='/colorframesx70' element={<ColorFramesSx70 />} />
+      <Route path='/skinssx70' element={<SkinsSx70 />} />
+      <Route path='/bnwhardcolorsx70' element={<ColorFramesSx70 />} />
       <Route path='/luluguinness' element={<LuluGuinness />} />
+      <Route path='/blackframesx70' element={<BlackFrameSx70 />} />
+      <Route path='/hardcolorsx70' element={<HardColorSx70 />} />
     </Routes>
   );
 }

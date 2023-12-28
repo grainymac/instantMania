@@ -1,10 +1,11 @@
-import instantHero from '../../assets/instantHero.png'
+import instantHero from './600png'
+import './instantFilm.css'
 
 export const InstantHero = () => {
     return (
         <>
-            <div className="hero-container">
-                <img src={instantHero} className="hero-image" alt='hero' />
+            <div className="pola-container">
+                <img src={instantHero} className="pola-hero" alt='hero' />
             </div>
         </>
     )
