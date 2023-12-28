@@ -1,3 +1,8 @@
+.go-header {
+    text-align: center;
+    font-size: 50px
+}
+
 .go-page-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));

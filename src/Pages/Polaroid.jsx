@@ -7,6 +7,7 @@ export const Polaroid = () => {
   return (
     <>
       <PolaroidHero />
+      <h1 className='polo-header'>Polaroid 600 Film & Frames</h1>
       <main className='polaroid-page-container'>
         <div className='polaroid-page-film'>
           <PolaroidCard />
