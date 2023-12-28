@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import { polaroidFilmData } from '../data/polaroidFilmData'
 import './componentsStyles.css'
+import instantMania from '../assets/instantmania.svg'
 
 
 export const NavBar = () => {
@@ -22,7 +23,9 @@ export const NavBar = () => {
         <>
             <div className='navbar-container'>
                 <div className='logo-container'>
-                    <NavLink to='/' className='nav-links'><h1>instantMania</h1></NavLink>
+                    <NavLink to='/' className='nav-links'>
+                        <img src={instantMania} alt='Instant Mania Logo' className='instantLogo' />
+                    </NavLink>
                 </div>
 
                 <div className='search-container'>
