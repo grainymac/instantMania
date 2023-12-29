@@ -169,31 +169,6 @@
 }
 
 /* -------------- DEVELOPMENT -------------- */
-.dev-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Real Head Web W04 Medium";
-}
-
-.dev-text {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.dev-icon-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.colored {
-    font-size: 10rem;
-}
 
 /* -------------- SOCIALS -------------- */
 .socials-container {

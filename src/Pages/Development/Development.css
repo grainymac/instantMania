@@ -1,0 +1,14 @@
+.dev-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Real Head Web W04 Medium";
+}
+
+.dev-title {
+    font-size: 50px;
+    text-align: center;
+}
+
