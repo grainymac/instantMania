@@ -15,6 +15,22 @@ export const Development = () => {
                     <li>React</li>
                 </ul>
             </div>
+
+            <div className='dev-container'>
+            <label>Project & Task Management</label>
+                <ul>
+                    <li>Trello</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <div className='dev-container'>
+            <label>Designs</label>
+                <ul>
+                    <li>Canva</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
             </main>
         </>
     )

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Hero.css'
+import insantLogo from '../../assets/instant-logo.png'
 
 const heroImages = [
     'https://images.pexels.com/photos/3419719/pexels-photo-3419719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',

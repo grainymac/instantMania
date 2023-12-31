@@ -7,8 +7,18 @@
     font-family: "Real Head Web W04 Medium";
 }
 
+.dev-container label {
+    font-size: 22px;
+}
+
 .dev-title {
     font-size: 50px;
     text-align: center;
+}
+
+.frontend-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 

@@ -38,7 +38,7 @@ export const Film = () => {
                 <div className='content'>
                     <div className='content-overlay'></div>
                     <Link to='/sx' className='nav-links'>
-                        <img src='https://i.pcmag.com/imagery/articles/06RIfWw40ih8PSN0AuLhm0U-1..v1646168421.jpg' className='polaroid-sx polaroids' alt='polaroid sx70' />
+                        <img src='https://hackaday.com/wp-content/uploads/2019/06/pi-sx70-featured.jpg?w=800' className='polaroid-sx polaroids' alt='polaroid sx70' />
                         <div className='content-details'>
                             <h3>SX-70 Film</h3>
                         </div>
