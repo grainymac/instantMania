@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Hero.css'
-import insantLogo from '../../assets/instant-logo.png'
+import instantLogo from '../../assets/instant-logo.png'
 
 const heroImages = [
     'https://images.pexels.com/photos/3419719/pexels-photo-3419719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -44,6 +44,9 @@ export const Hero = () => {
         <>
             <div className="hero-container">
                 <img src={heroImages[currentImage]} className="hero-image" alt={`hero-${currentImage}`} />
+                <div className="instant-logo-container">
+                    <img src={instantLogo} className="instant-logo" alt="instant-logo" />
+                </div>
                 <div className="carousel-controls">
                     <button onClick={previous}>←</button>
                     <button onClick={next}>→</button>
