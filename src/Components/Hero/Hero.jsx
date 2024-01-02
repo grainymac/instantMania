@@ -47,10 +47,6 @@ export const Hero = () => {
                 <div className="instant-logo-container">
                     <img src={instantLogo} className="instant-logo" alt="instant-logo" />
                 </div>
-                <div className="carousel-controls">
-                    <button onClick={previous}>←</button>
-                    <button onClick={next}>→</button>
-                </div>
             </div>
         </>
     )
