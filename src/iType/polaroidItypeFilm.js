@@ -21,6 +21,7 @@ import colorFrames from './film/Polaroid_i-type_Color_Frames_1_1200x1200 (1).jpg
 import gradientFrame from './film/S-058631x1500 2.jpg'
 import metallicNights from './film/61de519f86695573054256_w803h620.jpg'
 import retinex from './film/717oPHa7xjL._AC_SX466_ 2.jpg'
+import pantone from './film/pantone.png'
 
 export const polaroidItypeFilm = [
     {
@@ -188,7 +189,7 @@ export const polaroidItypeFilm = [
         id: 24,
         type: 'Color',
         title: 'Pantone Color of the Year 2024 Edition',
-        image: '',
+        image: pantone,
         link: '/pantone',
     },
 ]

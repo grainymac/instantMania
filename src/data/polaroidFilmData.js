@@ -80,6 +80,7 @@ import silverFrameSx70 from '../Sx70/film/impossible_prd3106_instant_color_film_
 import colorFramesSx70 from '../Sx70/film/m_62fc76942fbf1a1d33008d89 2.jpg'
 import luluGuinness from '../Sx70/film/1416496549_IMG_442276 2.jpg'
 import mintFrame from '../Polaroid/film/IMG_7245.jpg'
+import pantone from '../iType/film/pantone.png'
 
 
 export const polaroidFilmData = [
@@ -660,7 +661,7 @@ export const polaroidFilmData = [
     {
         id: 83,
         title: 'Pantone Color of the Year 2024 Edition',
-        image: '',
+        image: pantone,
         link: '/pantone',
         details: 'For photographers into the culture of color, there is the limited edition, i-Type color film with Pantone Color of the Year 2024, PANTONE 13-1023, Peach Fuzz, frames. A monochromatic snapshot of an artistic moment in time. If you’re a design-head, a culture-phile, or even just a fan of a velvety gentle peach with a warm and cozy shade that taps into our desire for togetherness, then this collectible collab between Polaroid and Pantone is for you. Each pack contains 8 photos. Compatible with Polaroid Now, Now+ & I-2 cameras and Polaroid Lab printer.',
     },

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles.css'
+import pantone from '../../../iType/film/pantone.png'
 
 
 export const Pantone = () => {
@@ -8,7 +9,7 @@ export const Pantone = () => {
         <div className='film-page-container'>
             <h1>Pantone Color of the Year 2024 Edition</h1>
             <div className='detail-container'>
-                <img src='' alt='polaroid film' />
+                <img src={pantone} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
                     For photographers into the culture of color, there is the limited edition, i-Type color film with Pantone Color of the Year 2024, PANTONE 13-1023, Peach Fuzz, frames. A monochromatic snapshot of an artistic moment in time. If you’re a design-head, a culture-phile, or even just a fan of a velvety gentle peach with a warm and cozy shade that taps into our desire for togetherness, then this collectible collab between Polaroid and Pantone is for you. Each pack contains 8 photos. Compatible with Polaroid Now, Now+ & I-2 cameras and Polaroid Lab printer.
