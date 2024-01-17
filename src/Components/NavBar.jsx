@@ -57,9 +57,6 @@ export const NavBar = () => {
                                 <NavLink to='/spectra' className='dropdown-item'>Spectra</NavLink>
                             </div>
                     </div>
-                    <div className='nav-dropdown'>
-                        <NavLink to='https://www.instagram.com/__instantmania__' className='nav-links'>Instagram</NavLink>
-                    </div>
                 </nav>
             </div>
         </>
