@@ -11,10 +11,10 @@ export const BlackOrange = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
-                    This Duochrome film only develops in orange and black, making it ideal for experimentation. It shares the formula of Impossible black & white film, resulting in high-contrast images with deep blacks and vibrant orange, following previous releases of black & yellow and black & red films.
-                    <br />
-                    <br />
-                    Limited edition of film that was produced by the Impossible Project that hasn't been brought into production since unlike the Green & Black, Blue & Black, & Yellow & Black.
+                        This Duochrome film only develops in orange and black, making it ideal for experimentation. It shares the formula of Impossible black & white film, resulting in high-contrast images with deep blacks and vibrant orange, following previous releases of black & yellow and black & red films.
+                        <br />
+                        <br />
+                        Limited edition of film that was produced by the Impossible Project that hasn't been brought into production since unlike the Green & Black, Blue & Black, & Yellow & Black.
                     </p>
                     <ul>
                         <b>Specs:</b>
@@ -29,7 +29,7 @@ export const BlackOrange = () => {
                         <b>Film Type:</b> Duochrome
                     </small>
                     <small>
-                    <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2, SLR670-type cameras and I-type cameras (Add ND Filter or Mint Flash Bar 2 for using the 600 films on Polaroid SX-70 cameras.)
+                        <b>Compatible Cameras:</b> Polaroid 600, Polaroid Now, Polaroid Now+, Polaroid Lab, OneStep 2, OneStep+, Polaroid i-2, SLR670-type cameras and I-type cameras (Add ND Filter or Mint Flash Bar 2 for using the 600 films on Polaroid SX-70 cameras.)
                     </small>
                 </aside>
             </div>

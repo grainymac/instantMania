@@ -110,6 +110,7 @@ import { TimeZero } from './Pages/Film/SX70/TimeZero.jsx'
 import { SaintLaurent } from './Pages/Film/SX70/SaintLaurent.jsx'
 import { RoundColorFramesSx70 } from './Pages/Film/SX70/RoundColorFramesSx70.jsx'
 import { SkinsSx70 } from './Pages/Film/SX70/SkinsSx70.jsx'
+import { BnwBlackFramesSx70 } from './Pages/Film/SX70/BnwBlackFramesSx70.jsx'
 
 export const App = () => {
   return (
@@ -217,7 +218,7 @@ export const App = () => {
       {/* SX-70 Film Pages */}
       <Route path='/bnwsx70' element={<BnwSx70 />} />
       <Route path='/colorsx70' element={<ColorSx70 />} />
-      <Route path='/bnwblackframesx70' element={<UnderConstruction />} />
+      <Route path='/bnwblackframesx70' element={<BnwBlackFramesSx70 />} />
       <Route path='/bnwhardcolorsx70' element={<UnderConstruction />} />
       <Route path='/roundblackframesx70' element={<RoundBlackFrameSx70 />} />
       <Route path='/goldframesx70' element={<GoldFrameSx70 />} />

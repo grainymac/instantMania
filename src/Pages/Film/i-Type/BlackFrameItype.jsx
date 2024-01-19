@@ -13,6 +13,7 @@ export const BlackFrameItype = () => {
                 <img src={film} alt='polaroid film' />
                 <aside className='text-container'>
                     <p>
+                        Dress code: black. Our Black Frame Edition in color i-Type film makes the good times bold thanks to its vivid color chemistry and matte black frame. 8 party-ready photos in every pack.
                     </p>
                     <ul>
                         <b>Specs:</b>

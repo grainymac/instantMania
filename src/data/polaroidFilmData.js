@@ -83,6 +83,7 @@ import mintFrame from '../Polaroid/film/IMG_7245.jpg'
 import pantone from '../iType/film/pantone.png'
 
 
+
 export const polaroidFilmData = [
     {
         id: 1,
