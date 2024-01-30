@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import '../styles.css'
 import film from '../../../Sx70/film/IMG_6312 2.JPG'
 
@@ -27,6 +27,8 @@ export const BnwBlackFramesSx70 = () => {
                     <small>
                         <b>Compatible Cameras:</b> Sx 70 Polaroid Cameras
                     </small>
+                    <Link to='/sx'>← back to SX-70 film & frames</Link>
+                    <Link to='/instant'>← back to all film & frames</Link>
                 </aside>
             </div>
         </div>

@@ -26,6 +26,7 @@ export const BnwSx70 = () => {
                     <small>
                         <b>Compatible Cameras:</b> SX-70 cameras, Polaroid i-2
                     </small>
+                    <Link to='/sx'>← back to SX-70 film & frames</Link>
                     <Link to='/instant'>← back to all film & frames</Link>
                 </aside>
             </div>
