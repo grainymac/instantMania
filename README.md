@@ -7,6 +7,7 @@ In a digital age dominated by pixel-perfect images, InstantMania celebrates the 
 
 ## Features
 **Explore a Gallery of Classic and New Frames:** Dive into a meticulously curated collection of Polaroid film types and frames.
+<br>
 **Educational Resources:** Expand your knowledge with in-depth details about different film types and frames.
 
 ## Future Plans
