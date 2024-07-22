@@ -1,5 +1,3 @@
-import iTypeHero from './assets/itypeHero.png'
-
 export const ItypeHero = () => {
     return (
         <>

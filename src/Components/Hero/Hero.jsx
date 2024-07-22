@@ -33,7 +33,7 @@ export const Hero = () => {
     }
 
     useEffect(() => {
-        const autoPlayTimer = setInterval(next, autoPlayInterval)
+        const autoPlayTimer = setInterval(next, previous, autoPlayInterval)
 
         return () => {
             clearInterval(autoPlayTimer)

@@ -1,5 +1,3 @@
-import goHero from './assets/goHero.png'
-
 export const GoHero = () => {
     return (
         <>
