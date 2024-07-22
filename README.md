@@ -13,8 +13,8 @@ In a digital age dominated by pixel-perfect images, InstantMania celebrates the 
 ## Future Plans
 InstantMania future is community-based.  As the app will grow along with community input and involvement.  Right now the application has a entertainment and educational purpose, but hopefully will add features where photographer's can submit instant photos to contribute to each film frame and film type galleries.
 
-## Trello Project Board
-[InstantMania Trello Board](https://trello.com/b/kU9x76ez)
+## Project Board
+**currently re-configuring**
 
 ## Deploy-Link
 [InstantMania](https://instantmania.vercel.app/)
