@@ -3,6 +3,7 @@ import { jokes } from '../jokeData'
 import pola from '../assets/polaroid.svg'
 
 export const JokeBar = () => {
+    /*
     const [randomJoke, setRandomJoke] = useState('')
 
     const getRandomJoke = () => {
@@ -17,14 +18,15 @@ export const JokeBar = () => {
     useEffect(() => {
         setRandomJoke(getRandomJoke())
     }, [])
+    */
 
     return (
         <>
             <div className='joke-container'>
                 <div className='joke-text-container'>
-                    <p className='joke-text'>{randomJoke}</p>
+                    <p className='joke-text'></p>
                 </div>
-                <button className='newJoke-button' onClick={handleNewJokeClick}>
+                <button className='newJoke-button'>
                     <img src={pola} alt='pola button' className='pola-button'/>
                 </button>
             </div>

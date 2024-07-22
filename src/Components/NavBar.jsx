@@ -44,10 +44,10 @@ export const NavBar = () => {
                 </div>
 
                 <nav className='links-container'>
-                    <NavLink to='/' className='nav-links'>Home</NavLink>
-                    <NavLink to='/news' className='nav-links'>News</NavLink>
+                    <NavLink to='/' className='nav-links'>HOME</NavLink>
+                    <NavLink to='/news' className='nav-links'>NEWS</NavLink>
                     <div className='nav-dropdown'>
-                        <NavLink to='/instant' className='nav-links'>Film</NavLink>
+                        <NavLink to='/instant' className='nav-links'>FILM</NavLink>
                             <div className='dropdown-content'>
                                 <NavLink to='/instant' className='dropdown-item'>All Instant Film</NavLink>
                                 <NavLink to='/polaroid' className='dropdown-item'>600</NavLink>
