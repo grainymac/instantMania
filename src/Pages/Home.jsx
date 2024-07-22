@@ -6,7 +6,6 @@ import { Film } from '../Components/Film'
 export const Home = () => {
     return (
         <div className='app-container'>
-            <Hero />
             <Film />
         </div>
     );
