@@ -1,6 +1,6 @@
 import React from 'react'
 import './News.css'
-import { news } from '../../data/newsData.js'
+import { news } from './newsData.js'
 import { NewsHero } from './NewsHero.jsx'
 
 export const News = () => {

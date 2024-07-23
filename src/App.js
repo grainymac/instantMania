@@ -2,19 +2,18 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
 import { Home } from './Pages/Home/Home.jsx'
-import { Go } from './Go/Go'
-import { IType } from './iType/IType'
-import { Spectra } from './Spectra/Spectra'
+import { Go } from './Polaroid/Go/Go'
+import { IType } from './Polaroid/iType/IType.jsx'
+import { Spectra } from './Polaroid/Spectra/Spectra'
 import { SixHundred } from './Polaroid/SixHundred/SixHundred.jsx'
 import { InstantFilm } from './Pages/InstantFilm/InstantFilm.jsx'
-import { Sx } from './Sx70/Sx'
+import { Sx } from './Polaroid/Sx70/Sx'
 import { News } from './Pages/News/News.jsx'
 import { BadURL } from './Error/BadURL.jsx'
 import { UnderConstruction } from './Error/UnderConstruction.jsx'
 import { Development } from './Pages/Development/Development.jsx'
 import { Socials } from './Pages/Socials'
 import { About } from './Pages/About/About'
-import PolaroidCameraEject from './PolaroidCameraEject'
 
 // 600 film
 import { Barbie } from './Pages/Film/600/Barbie'
@@ -134,7 +133,6 @@ export const App = () => {
       <Route path='/development' element={<Development />} />
       <Route path='/support' element={<UnderConstruction />} />
       <Route path='/socials' element={<Socials />} />
-      <Route path='/eject' element={<PolaroidCameraEject />} />
 
       {/* 600 Film Pages */}
       <Route path='/bnw600' element={<Bnw600 />} />

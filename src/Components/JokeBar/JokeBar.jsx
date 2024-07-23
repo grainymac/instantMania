@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { jokes } from '../../jokeData'
+import React from 'react'
 import pola from './assets/polaroid.svg'
 import './JokeBar.css'
 
