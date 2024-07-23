@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PolaroidCard } from '../../Pages/Polaroid/PolaroidCard'
+import { PolaroidCard } from './PolaroidCard'
 import './SixHundred.css'
 
 export const SixHundred = () => {

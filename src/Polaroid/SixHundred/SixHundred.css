@@ -3,3 +3,63 @@
     grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
     grid-gap: 1rem;
 }
+
+.polaroidCard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px 30px;
+    gap: 15px;
+}
+
+.polaCard {
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 16rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.polaCard:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+    border-radius: 1.5rem;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.polaTitle {
+    margin: 3px 5px;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    font-family: "Real Head Web W04 Medium"
+}
+
+.polaImage {
+    height: auto;
+    width: 250px;
+    border-radius: .5rem;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.motion {
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .polaroid600-hero {
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+}
