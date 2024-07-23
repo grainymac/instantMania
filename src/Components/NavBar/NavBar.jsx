@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-import { polaroidFilmData } from '../data/polaroidFilmData'
-import './componentsStyles.css'
-import instantMania from '../assets/instantmania.svg'
+import { polaroidFilmData } from '../../data/polaroidFilmData'
+import './NavBar.css'
+import instantMania from './assets/instantmania.svg'
 
 
 export const NavBar = () => {

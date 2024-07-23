@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
-import { Home } from './Pages/Home'
+import { Home } from './Pages/Home/Home.jsx'
 import { Go } from './Go/Go'
 import { IType } from './iType/IType'
 import { Spectra } from './Spectra/Spectra'

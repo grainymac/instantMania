@@ -1,0 +1,178 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Real Head Web W04 Medium";
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+}
+
+.main-title {
+    text-decoration: none;
+}
+
+.logo-container {
+    margin: 0;
+    width: fit-content;
+}
+
+.instantLogo {
+    margin: 0;
+    padding: 0;
+}
+
+.links-container {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    width: 400px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.nav-links:hover {
+    text-shadow: 2px 2px 4px rgba(72, 72, 72, 0.473);
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.searchbar {
+    border-radius: 1rem;
+    height: 2rem;
+    padding: 0 10px;
+    margin: 0 10px;
+    width: 300px;
+}
+
+.result-container {
+    position: absolute;
+    top: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    z-index: 1;
+    width: 320px;
+}
+
+.result-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.result-link:hover {
+    color: #f88888;
+}
+
+.result {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: fit-content;
+    }
+
+    .logo-container {
+        padding: 5px 0;
+        margin: 0;
+    }
+
+    .logo-container h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .links-container {
+        justify-content: center;
+        margin: 0;
+        padding: 0 5px;
+        width: auto;
+        gap: 30px;
+    }
+
+    .links li {
+        margin: 0;
+        font-size: 13px;
+        padding: 0 5px;
+    }
+
+    .nav-links {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .searchbar {
+        border-radius: 1rem;
+        height: 2rem;
+        padding: 0 10px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    
+    .result-container {
+        position: absolute;
+        top: 210px;
+        max-height: 200px;
+        overflow-y: auto;
+        background-color: #fff;
+        border: 1px solid #00000088;
+        border-radius: 1rem;
+        z-index: 1;
+        width: 320px;
+    }
+
+    .instantLogo {
+        width: 100%;
+    }
+}

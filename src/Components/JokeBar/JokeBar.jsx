@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { jokes } from '../jokeData'
-import pola from '../assets/polaroid.svg'
+import { jokes } from '../../jokeData'
+import pola from './assets/polaroid.svg'
+import './JokeBar.css'
 
 export const JokeBar = () => {
     /*
