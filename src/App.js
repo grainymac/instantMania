@@ -5,7 +5,7 @@ import { Home } from './Pages/Home/Home.jsx'
 import { Go } from './Go/Go'
 import { IType } from './iType/IType'
 import { Spectra } from './Spectra/Spectra'
-import { Polaroid } from './Pages/Polaroid/Polaroid'
+import { SixHundred } from './Polaroid/SixHundred/SixHundred.jsx'
 import { InstantFilm } from './Pages/InstantFilm/InstantFilm.jsx'
 import { Sx } from './Sx70/Sx'
 import { News } from './Pages/News/News.jsx'
@@ -116,7 +116,7 @@ export const App = () => {
   return (
     <Routes>
       <Route path='/' index element={<Home />} />
-      <Route path='/polaroid' element={<Polaroid />} />
+      <Route path='/600' element={<SixHundred />} />
       <Route path='/itype' element={<IType />} />
       <Route path='/go' element={<Go />} />
       <Route path='/sx' element={<Sx />} />

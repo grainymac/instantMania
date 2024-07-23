@@ -1,46 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
 @import url('https://db.onlinewebfonts.com/c/ee83134559a4f33cac174cf72426289c?family=Real+Head+Web+W04+Medium');
 
-/* ------------- Hero ------------- */
-.hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    width: auto;
-    height: 50vh;
-    overflow: hidden;
-    margin: 0;
-}
-
-.hero-image {
-    max-width: 1200px;
-    transition: box-shadow 0.3s;
-    border-radius: 2rem;
-}
-
-.hero-image:hover {
-    cursor: crosshair;
-}
-
-@media (max-width: 768px) {
-    .hero-container {
-        display: flex;
-        justify-content: center;
-        height: auto;
-        padding: 0;
-        width: 100%;
-    }
-
-    .hero-image {
-        border-radius: 0;
-        width: 500px;
-    }
-}
-
-/* ------------- Footer ------------- */
-
-
 /* ------------- FILM ------------- */
 .instant-card-container {
     display: flex;
