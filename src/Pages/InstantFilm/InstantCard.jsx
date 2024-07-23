@@ -1,10 +1,10 @@
 import React from 'react'
 import './instantFilm.css'
-import { polaroidFilmData } from '../../data/polaroidFilmData'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 export const InstantCard = () => {
+    /*
     const film = polaroidFilmData.slice()
 
     film.sort((a, b) => {
@@ -19,6 +19,7 @@ export const InstantCard = () => {
         }
         return 0
     })
+        */
 
     return (
         <>
