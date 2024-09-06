@@ -6,6 +6,7 @@ import instantMania from './assets/instantmania.svg'
 
 
 export const NavBar = () => {
+    /*
     const [query, setQuery] = useState('')
 
     const filteredResults = polaroidFilmData.filter((item) =>
@@ -17,7 +18,7 @@ export const NavBar = () => {
     const resetSearchBar = () => {
         setQuery('')
     }
-
+*/
     return (
         <>
             <div className='navbar-container'>
@@ -28,18 +29,7 @@ export const NavBar = () => {
                 </div>
 
                 <div className='search-container'>
-                    <input className='searchbar' placeholder='Search for Polaroid Film & Frames' type='text' onChange={e => setQuery(e.target.value)} value={query} />
-                    {query && (
-                        <div className='result-container'>
-                            <ul className='result-list'>
-                                {limitedResults.map((result, index) => (
-                                    <li className='result' key={index}>
-                                        <Link onClick={resetSearchBar} className='result-link' to={result.link}>{result.title}</Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    )}
+                    <input className='searchbar' placeholder='Search for Polaroid Film & Frames' type='text' />
                 </div>
 
                 <nav className='links-container'>

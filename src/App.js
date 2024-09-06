@@ -2,12 +2,12 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
 import { Home } from './Pages/Home/Home.jsx'
-import { Go } from './Polaroid/Go/Go'
-import { IType } from './Polaroid/iType/IType.jsx'
-import { Spectra } from './Polaroid/Spectra/Spectra'
-import { SixHundred } from './Polaroid/SixHundred/SixHundred.jsx'
+import { GoFilm } from './Polaroid/Go/GoFilm.jsx'
+import { ITypeFilm } from './Polaroid/iType/ITypeFilm.jsx'
+import { SpectraFilm } from './Polaroid/Spectra/SpectraFilm.jsx'
+import { PolaroidFilm } from './Polaroid/SixHundred/PolaroidFilm.jsx'
 import { InstantFilm } from './Pages/InstantFilm/InstantFilm.jsx'
-import { Sx } from './Polaroid/Sx70/Sx'
+import { SxFilm } from './Polaroid/Sx70/SxFilm'
 import { News } from './Pages/News/News.jsx'
 import { BadURL } from './Error/BadURL.jsx'
 import { UnderConstruction } from './Error/UnderConstruction.jsx'
@@ -18,11 +18,11 @@ export const App = () => {
   return (
     <Routes>
       <Route path='/' index element={<Home />} />
-      <Route path='/600' element={<SixHundred />} />
-      <Route path='/itype' element={<IType />} />
-      <Route path='/go' element={<Go />} />
-      <Route path='/sx' element={<Sx />} />
-      <Route path='/spectra' element={<Spectra />} />
+      <Route path='/600film' element={<PolaroidFilm />} />
+      <Route path='/itypefilm' element={<ITypeFilm/>} />
+      <Route path='/gofilm' element={<GoFilm />} />
+      <Route path='/sxfilm' element={<SxFilm />} />
+      <Route path='/spectrafilm' element={<SpectraFilm />} />
       <Route path='/instant' element={<InstantFilm />} />
       <Route path='/news' element={<News /> } />
       <Route path='/*' element={<BadURL />} />

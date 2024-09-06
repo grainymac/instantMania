@@ -3,7 +3,7 @@ import React from 'react'
 import { PolaroidCard } from './PolaroidCard'
 import './SixHundred.css'
 
-export const SixHundred = () => {
+export const PolaroidFilm = () => {
   return (
     <>
       <main className='sixHundred-page-container'>

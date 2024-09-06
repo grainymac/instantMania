@@ -54,6 +54,15 @@ export const Film = () => {
                         </div>
                     </Link>
                 </div>
+                <div className='content'>
+                    <div className='content-overlay'></div>
+                    <Link to='/instax' className='nav-links'>
+                        <img src='https://cdn.thewirecutter.com/wp-content/media/2023/10/instantcameras-2048px-02050-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp' className='instax' alt='instax' />
+                        <div className='content-details'>
+                            <h3>Instax Film</h3>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </>
     )

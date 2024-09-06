@@ -2,7 +2,7 @@ import React from 'react'
 import { ItypeCard } from './ItypeCard'
 import './IType.css'
 
-export const IType = () => {
+export const ITypeFilm = () => {
     return (
         <>
             <h1 className='itype-header'>Polaroid i-Type Film & Frames</h1>
